@@ -1,6 +1,6 @@
 
 
-// Class and Objec
+// Class and Object
 
 // Class :
 // class is a blueprint of any object
