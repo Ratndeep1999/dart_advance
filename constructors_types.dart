@@ -26,7 +26,7 @@ class Person{
 // this is constructor that takes parameters
 // it is use to pass the values to constructor at the time of object creation
 
-// e.g of buss class
+// e.g of simple parameterized constructor
 class Bus{
   String? color ;
   int? numOfSeats ;
@@ -39,6 +39,27 @@ class Bus{
     print('Bus color : ${this.color}');
     print('Number of seats in Bus : ${this.numOfSeats}');
     print('Is Bus Driverless : ${this.isDriverless}');
+  }
+}
+
+
+// e.g Parameterized constructor with Name Parameters
+class Animal{
+  String? name ;
+  int? lifespan ;
+  int? legs ;
+
+  // Parameterized constructor with Named parameters
+  Animal({String? name, int? lifespan, int? legs}){
+    this.name = name ;
+    this.lifespan = lifespan ;
+    this.legs = legs ;
+  }
+
+  void printDetails(){
+    print('Animal Name : ${this.name}');
+    print('Entire age limit : ${this.lifespan}');
+    print('Number of Legs: ${this.legs}');
   }
 }
 
@@ -57,5 +78,12 @@ void main(){
   // object of Bus class
   Bus bus = Bus('Black', 56, false);
   bus.printDetails();
+  print('\n');
+
+
+  // object of Animal class
+  Animal animal = Animal(legs: 4, lifespan: 57, name: 'Lion');
+  animal.printDetails();
+  print('\n');
 
 }
