@@ -63,6 +63,25 @@ class Animal{
   }
 }
 
+// e.g of Parameterized constructor with default values
+class Student{
+  String? name ;
+  int? STD ;
+  String? schoolName ;
+
+  Student({String? name = 'Sonali', int? STD = 10, String? schoolName = "ABC school"}){
+    this.name = name ;
+    this.STD = STD ;
+    this.schoolName = 'ABC school' ;
+  }
+
+  void printData(){
+    print('Student name : ${this.name}');
+    print('STD : ${this.STD}');
+    print('School Name : ${this.schoolName}');
+  }
+}
+
 
 void main(){
   // object of person class
@@ -85,5 +104,12 @@ void main(){
   Animal animal = Animal(legs: 4, lifespan: 57, name: 'Lion');
   animal.printDetails();
   print('\n');
+
+
+  // object of Student class
+  Student student = Student();
+  student.printData();
+  print('\n');
+
 
 }
