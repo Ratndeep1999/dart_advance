@@ -57,7 +57,23 @@ class Person{
     print('Age : $age');
     print('Married : $isMarried');
   }
+}
 
+// Bicycle class
+class Bicycle{
+  String? brand ;
+  int? modeYear ;
+  double? currentSpeed ;
+
+  void displayDetails(){
+    print('Brand : $brand');
+    print('Year of Model : $modeYear');
+    print('Current speed : $currentSpeed');
+  }
+
+  void changeGear(double newValue){
+    currentSpeed = newValue ;
+  }
 }
 
 
@@ -77,5 +93,14 @@ void main(){
 
   person.display();  // reference name.method name
   person.name;  // reference name.variable name
+
+  Bicycle bicycle = Bicycle() ;  // assigning values by using objects
+  bicycle.brand = 'Atlas' ;
+  bicycle.modeYear = 2025 ;
+  bicycle.currentSpeed = 5.555 ;
+  bicycle.displayDetails() ;
+
+  bicycle.changeGear(6.2589);
+  print("current speed : ${bicycle.currentSpeed!.toStringAsFixed(2)}");
 
 }
