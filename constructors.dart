@@ -34,6 +34,21 @@ class Person{
 // it is use to initialize values when an object is created
 
 
+// e.g of Student class
+class Student{
+  String? name ;
+  int? age ;
+  int? rollNumber ;
+
+  // constructor
+  Student(String name, int age, int rollNumber){
+    print('Constructor called......');  // for checking
+    this.name = name ;     // Here, this keyword is use to indicate variable of this class
+    this.age = age ;
+    this.rollNumber = rollNumber ;
+  }
+}
+
 
 void main(){
   // object of person class
@@ -41,6 +56,16 @@ void main(){
 
   person.getData('Ratndeep', 26) ;  // positions parameters
   person.printDetails() ;
+  print('\n');
+
+
+  // object of Student class
+  Student student = Student('Sonali', 21, 26); // this constructor call's automatically whenever I create an object and values will initialized
+
+  print('Name : ${student.name}');
+  print('Age : ${student.age}');
+  print('Roll no. : ${student.rollNumber}');
+  print('\n');
 
 
 }
