@@ -103,4 +103,5 @@ void main(){
   bicycle.changeGear(6.2589);
   print("current speed : ${bicycle.currentSpeed!.toStringAsFixed(2)}");
 
+  print("Bicycle Hash code : ${bicycle.hashCode}");  // it print address or hash code of bicycle variable object
 }
