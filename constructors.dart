@@ -28,6 +28,7 @@ class Person{
 // points to be note :
 // constructor name should be same as class name
 // constructor doesn't have any return type
+// it called once at the time of object creation
 
 
 // Note : whenever object is created, the constructor is called automatically,
