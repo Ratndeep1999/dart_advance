@@ -20,6 +20,12 @@ class Person{
 }
 
 
+// constructor :
+// special method use to initialize an object
+// called automatically when an object is created
+// can be use to set initial values for object properties
+
+
 void main(){
 
   // object of person class
