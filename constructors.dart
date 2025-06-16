@@ -50,6 +50,25 @@ class Student{
 }
 
 
+// class Employee with constructor and optional parameters
+class Employee{
+  String? name ;
+  int? age ;
+  String? department ;
+  double? salary ;
+
+  // constructor with optional parameters
+  Employee(this.name, this.age, [this.department = 'N/A', this.salary = 0.00]);
+
+  void printDetails(){
+    print('Name : ${this.name}');
+    print('Age : ${this.age}');
+    print('Department : ${this.department}');
+    print('Salary : ${this.salary}');
+  }
+}
+
+
 void main(){
   // object of person class
   Person person = Person() ;
@@ -68,4 +87,7 @@ void main(){
   print('\n');
 
 
+  // object of employee class
+  Employee employee = Employee('Sonali', 21);
+  employee.printDetails();
 }
