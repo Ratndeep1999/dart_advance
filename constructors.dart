@@ -68,6 +68,33 @@ class Employee{
   }
 }
 
+// class Laptop with constructor and named parameters
+class Laptop{
+  String? brand ;
+  int? price ;
+
+  Laptop({this.brand, this.price});
+
+  void printDetails(){
+    print('Brand : $brand');
+    print('Price : $price');
+  }
+}
+
+
+// class bike with default constructor
+class Bike{
+  String? brand ;
+  int? cc ;
+
+  Bike({this.brand = 'Honda', this.cc = 500});
+
+  void printDetails(){
+    print('Brand : ${this.brand}');
+    print('Engine cc : ${this.cc}');
+  }
+}
+
 
 void main(){
   // object of person class
@@ -90,4 +117,16 @@ void main(){
   // object of employee class
   Employee employee = Employee('Sonali', 21);
   employee.printDetails();
+  print('\n');
+
+
+  // object of laptop class
+  Laptop laptop = Laptop(price: 59000, brand: 'HP');  // constructor with named parameters
+  laptop.printDetails();
+  print('\n');
+
+
+  // object of bike class
+  Bike bike = Bike();
+  bike.printDetails();
 }
