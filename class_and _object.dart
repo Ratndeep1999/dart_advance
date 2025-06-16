@@ -17,7 +17,13 @@
 
 // reference name : variable that stores address or hashcode of an object
 
-//
+// object :
+// instance of a class (e.g of class)
+// real world entity
+// create from templates called classes
+// self-contained unit of code and data
+// an object made up of properties and methods
+
 
 // e.g 1. Animal class
 class Animal{
