@@ -94,6 +94,7 @@ void main(){
   person.display();  // reference name.method name
   person.name;  // reference name.variable name
 
+  // object of bicycle
   Bicycle bicycle = Bicycle() ;  // assigning values by using objects
   bicycle.brand = 'Atlas' ;
   bicycle.modeYear = 2025 ;
@@ -104,4 +105,5 @@ void main(){
   print("current speed : ${bicycle.currentSpeed!.toStringAsFixed(2)}");
 
   print("Bicycle Hash code : ${bicycle.hashCode}");  // it print address or hash code of bicycle variable object
+
 }
