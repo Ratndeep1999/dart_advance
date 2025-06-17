@@ -132,3 +132,8 @@ void main(){
   bike.printDetails();
 
 }
+
+
+
+// Note : To access class members outside the class object is required, where
+// as to access them inside the class no object is required
