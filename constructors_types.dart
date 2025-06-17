@@ -128,7 +128,31 @@ class Mobile{
   }
 }
 
-//
+  // class of Animal breed
+  class AnimalBreed{
+    String? animalName ;
+    int? numOfLegs ;
+    String? voice ;
+
+  // Default constructor
+  AnimalBreed(){
+    print('This is default constructor');
+  }
+
+  // Named constructor 1
+  AnimalBreed.dog(String? animalName, int? numOfLegs, String? voice){
+    this.animalName = animalName ;
+    this.numOfLegs = numOfLegs ;
+    this.voice = voice ;
+  }
+
+  // Named constructor 2
+  AnimalBreed.kangaru(String? animalName, int? numOfLegs, [ String? voice = 'N/A' ]){
+   this.animalName = animalName ;
+   this.numOfLegs = numOfLegs ;
+   this.voice = voice ;
+  }
+}
 
 
 void main(){
@@ -175,6 +199,22 @@ void main(){
   mobile.printDetails();
   print('\n');
   mobile2.printDetails();
+  print('\n');
+
+
+  // object of AnimalBreed class
+  AnimalBreed animalBreed1 = AnimalBreed.dog('Dog', 4, 'Bark! Bark!');
+  AnimalBreed animalBreed2 = AnimalBreed.kangaru('Kangaru', 2);
+
+  print('AnimalBreed Name : ${animalBreed1.animalName}');
+  print('Number of Legs : ${animalBreed1.numOfLegs}');
+  print('Voice : ${animalBreed1.voice}');
+  print('\n');
+
+  print('AnimalBreed Name : ${animalBreed2.animalName}');
+  print('Number of Legs : ${animalBreed2.numOfLegs}');
+  print('Voice : ${animalBreed2.voice}');
+  print('\n');
 
 }
 
