@@ -83,6 +83,52 @@ class Student{
 }
 
 
+// 3.Named constructor
+// in other programing language like java, c++ we can create multiple constructor with same name, but this not possible in dart
+// using this constructor we can create multiple constructor with same name
+
+// [ Note : It is usefull when I want to create multiple constructor with same name ]
+
+// e.g of Named constructor
+class Restaurant{
+  int? tables ;
+  int? chairs ;
+  String? name ;
+
+  // Default constructor
+  Restaurant(){
+    print('This is default constructor');
+  }
+
+  // Named constructor
+  Restaurant.assets(int? tables, int? chairs, String? name){
+    print('This is Named constructor');
+    this.tables = tables ;
+    this.chairs = chairs ;
+    this.name = name ;
+  }
+}
+
+// e,g of named and parameterized constructor
+class Mobile{
+  String? brand ;
+  int? price ;
+  bool? with_Charger ;
+
+  // Parameterized constructor
+  Mobile(this.brand, this.price, this.with_Charger);
+
+  // Named constructor
+  Mobile.android(this.brand, this.with_Charger, [this.price = 0 ]);
+
+  void printDetails(){
+    print('Mobile brand : ${this.brand}');
+    print('Price : ${this.price}');
+    print('With Charger : ${this.with_Charger}');
+  }
+}
+
+
 void main(){
   // object of person class
   Person person = Person();
@@ -112,5 +158,22 @@ void main(){
   print('\n');
 
 
-  // object of
+  // object of Restaurant class
+  Restaurant restaurant = Restaurant.assets(36, 63, 'Sonali');
+  print('Restaurant Name : ${restaurant.name}');
+  print('Total Table\'s in Restaurant : ${restaurant.tables}');
+  print('Total Chair\'s : ${restaurant.chairs}');
+  print('\n');
+
+
+  // object of mobile class
+  Mobile mobile = Mobile('Nokia', 5999, true);  // first object
+  Mobile mobile2 = Mobile.android('iphone', false);  // second object
+
+  mobile.printDetails();
+  print('\n');
+  mobile2.printDetails();
+
 }
+
+// named with parameterized constructor
