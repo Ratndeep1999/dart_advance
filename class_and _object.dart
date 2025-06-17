@@ -107,3 +107,15 @@ void main(){
   print("Bicycle Hash code : ${bicycle.hashCode}");  // it print address or hash code of bicycle variable object
 
 }
+
+
+// Remember key points of classes and object
+// Class can contain following :
+// Fields : (variables)  static or instance variable
+// Methods : static or instance
+// Constructors : single or multiple constructors
+// Setter :
+// Getter :
+
+
+// I can not write code or logic directly in class, I has to write inside methods or either getter or setter
