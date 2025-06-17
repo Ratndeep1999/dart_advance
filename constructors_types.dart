@@ -128,6 +128,8 @@ class Mobile{
   }
 }
 
+//
+
 
 void main(){
   // object of person class
