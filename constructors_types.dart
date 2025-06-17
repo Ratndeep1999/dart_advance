@@ -155,6 +155,21 @@ class Mobile{
 }
 
 
+// 4.Const constructor
+// constructor that create constant object
+// constant object means whose value cannot be changed
+// constant constructor declare using 'const' keyword
+
+// [ Note : It is use to create object whose value cannot be changed ]
+
+// Rules for declaring constant constructor
+// all properties of class must be final
+// it does not have any body
+// Only class containing const constructor is initialized using const keyword
+
+
+
+
 void main(){
   // object of person class
   Person person = Person();
