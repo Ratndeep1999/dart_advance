@@ -272,6 +272,5 @@ void main(){
   print('Id : ${employeeDetails.id}');
   print('Salary : ${employeeDetails.salary}');
 
-
 }
 
