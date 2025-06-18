@@ -249,6 +249,20 @@ void main(){
   print('Voice : ${animalBreed2.voice}');
   print('\n');
 
+  // object of hashcode with const
+  const Hashcode h1 = Hashcode(1, 2);     // if i remove const then hashcode will not be same
+  print('Hashcode of h1 : ${h1.hashCode}');
+
+  const Hashcode h2 = Hashcode(1, 2);
+  print('Hashcode of h2 : ${h2.hashCode}');
+
+  // objects of hashcode without const
+  Hashcode h3 = Hashcode(2, 2);      // here, Hashcode will note be same
+  print('Hashcode of h3 : ${h3.hashCode}');
+
+  Hashcode h4 = Hashcode(2, 2);
+  print('Hashcode of h4 : ${h4.hashCode}');
+  print('\n');
 
 
   // object of EmployeeDetails
