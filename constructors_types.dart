@@ -167,6 +167,22 @@ class Mobile{
 // it does not have any body
 // Only class containing const constructor is initialized using const keyword
 
+// e.g of const constructor
+class Hashcode{
+  final int?  a ;
+  final int? b ;
+
+  const Hashcode(this.a, this.b);
+}
+
+// e.g of const constructor with named parameters
+class EmployeeDetails{
+  final int? id ;
+  final String? name ;
+  final double? salary ;
+
+  const EmployeeDetails({this.name, this.salary, this.id});
+}
 
 
 
@@ -232,6 +248,30 @@ void main(){
   print('Number of Legs : ${animalBreed2.numOfLegs}');
   print('Voice : ${animalBreed2.voice}');
   print('\n');
+
+  // object of hashcode with const
+  const Hashcode h1 = Hashcode(1, 2);     // if i remove const then hashcode will not be same
+  print('Hashcode of h1 : ${h1.hashCode}');
+
+  const Hashcode h2 = Hashcode(1, 2);
+  print('Hashcode of h2 : ${h2.hashCode}');
+
+  // objects of hashcode without const
+  Hashcode h3 = Hashcode(2, 2);      // here, Hashcode will note be same
+  print('Hashcode of h3 : ${h3.hashCode}');
+
+  Hashcode h4 = Hashcode(2, 2);
+  print('Hashcode of h4 : ${h4.hashCode}');
+  print('\n');
+
+
+  // object of EmployeeDetails
+  const EmployeeDetails employeeDetails = EmployeeDetails(name: 'Sonali', id: 26, salary: 250000);
+  print('Employee Details ');
+  print('Name : ${employeeDetails.name}');
+  print('Id : ${employeeDetails.id}');
+  print('Salary : ${employeeDetails.salary}');
+
 
 }
 
