@@ -7,7 +7,15 @@
 
 /// Getter ( Read ) : method are use to access value of private property.
 
+// syntax
+// type get _member { return a value  }
+// type get -member => a value
+
 
 
 
 /// Setter ( modify ) : method are use to update the value of private property.
+// syntax
+// set _member (type value) {
+//   value = _member  // logic or validation
+// }
