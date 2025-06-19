@@ -16,6 +16,8 @@ class Xyz extends Object { }
 
 void main(){
 
+  print('\n');
+
   // first object of Test class
   Test test1 = Test();
   print('Test1 Hashcode : ${test1.hashCode} ');
