@@ -19,5 +19,17 @@ class Test{
   // void Test(){   // it give compile time error bec. class name and method name is same
   //
   // }
+}
 
+
+/// Every Class in dart inherit from Object class
+// e.g
+class Xyz extends Object {
+
+}
+
+
+void main(){
+  Xyz xyz = Xyz();  // object of Xyz class
+  print('Hashcode of Xyz : ${xyz.hashCode}');  // hashcode is field that actually get from Object class
 }
