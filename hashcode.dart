@@ -5,24 +5,30 @@
 /// which help's to identify object uniquely
 
 
-
-
-
-
-
-
-
-
+// e.g of unique hashcode of objects
+class Test { }
 
 
 /// Every Class in dart inherit from Object class
 // e.g
-class Xyz extends Object {
-
-}
+class Xyz extends Object { }
 
 
 void main(){
-  Xyz xyz = Xyz();  // object of Xyz class
-  print('Hashcode of Xyz : ${xyz.hashCode}');  // hashcode is field that actually get from Object class
+
+  // first object of Test class
+  Test test1 = Test();
+  print('Test1 Hashcode : ${test1.hashCode} ');
+
+  // second object of Test class
+  Test test2 = Test();
+  print('Test1 Hashcode : ${test2.hashCode} ');
+
+
+
+  // object of Xyz class
+  Xyz xyz = Xyz();
+  print('Hashcode of Xyz : ${xyz.hashCode}');  // Hashcode is field that actually get from Object class
+
 }
+
