@@ -12,6 +12,4 @@
 
 
 
-void main(){
-
-}
+// For this I am creating one class 'House'(file) and 'main'(file)
