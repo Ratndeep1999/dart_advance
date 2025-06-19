@@ -10,7 +10,7 @@ class Test { }
 
 
 /// Every Class in dart inherit from Object class
-// e.g
+// e.g of Object class
 class Xyz extends Object { }
 
 
