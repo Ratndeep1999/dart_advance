@@ -67,3 +67,31 @@ class Square{
 
 
 
+// class of area of circle and computer property for diameter
+class Circle{
+  double _radius ;
+
+  Circle(this._radius);
+
+  double get radius {
+    return _radius ;
+  }
+
+  set radius(double value){
+    if (value > 0 ){
+      _radius = value ;
+    } else {
+      ArgumentError('Radius must be positive');
+    }
+  }
+
+  // get method to computed properties
+  double get diameter{
+    return _radius * 2 ;
+  }
+
+  // method to calculate area
+  double area(){
+    return 3.14 * _radius *_radius ;
+  }
+}
