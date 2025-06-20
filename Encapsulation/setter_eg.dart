@@ -21,6 +21,11 @@ class NoteBook{
     this._prize = price ;
   }
 
+  void display(){
+    print('Notebook Name : ${_name}');
+    print('Notebook price : ${_prize}');
+  }
+
 }
 
 void main() {
@@ -29,9 +34,7 @@ void main() {
   noteBook.name = 'Sonali' ;
   noteBook.price = 250 ;
 
-  print('Notebook Name : ${noteBook._name}');
-  print('Notebook price : ${noteBook._prize}');
-
+  noteBook.display();
   print('\n');
 
 
