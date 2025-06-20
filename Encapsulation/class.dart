@@ -45,4 +45,4 @@ class AreaRectangle {
 
 // class of area of square
 
-// class of area of circle and diameter of circle
+// class of area of circle and computer property for diameter
