@@ -1,6 +1,6 @@
 
 
-// getter :
+/// Getter :
 // why getter use :
 // To restrict the direct access of private data members
 // To access the value of private property
