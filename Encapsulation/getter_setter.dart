@@ -6,7 +6,7 @@
 // Both allow to define how to read( getter ) and modified( setter ) a properties
 
 
-/// Getter ( read ) : method is use to read ( access ) private property of class
+/// Getter ( read ) : method is use to read ( access ) values of private property
 // syntax :
 // type get _memberName {
 //   return value
