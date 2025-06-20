@@ -76,10 +76,9 @@ void main(){
   print('Area of Rectangle : ${rectangle.area()}');
 
   rectangle.height = 2.5 ;
-  rectangle.width = 2.3 ;
+  rectangle.width = 2.5 ;
   print('Height : ${rectangle.height}');
   print('Width : ${rectangle.width}');
   print('Area of Rectangle : ${rectangle.area()}');
-
 
 }
