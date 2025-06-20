@@ -1,9 +1,12 @@
 
 
-// getter
+// getter :
+// why getter use :
+// To restrict the direct access of private data members
+// To access the value of private property
+
 
 // class Person
-import 'dart:math';
 
 class Person {
   String firstName ;
@@ -46,6 +49,31 @@ class NoteBook {
 
 }
 
+
+// e.g of getter with Map type
+class Doctor {
+  String _name ;
+  int _age ;
+  String _gender ;
+
+  Doctor(this._name, this._age, this._gender);
+
+  String get name => _name ;
+  int get age => _age ;
+  String get gender => _gender ;
+
+  // Map of getter
+  Map <String, dynamic> get doctorData {
+    return {
+      'Name' : _name,
+      'Age' : _age,
+      'Gender' : _gender
+    };
+  }
+
+}
+
+
 void main() {
   // object of person
   Person person = Person('Ratndeep', 'Chandankhede');
@@ -66,6 +94,12 @@ void main() {
 
   print("\n");
 
+  // object of Doctor
+  Doctor doctor = Doctor('Sonali', 21, 'Female');
+  print('${doctor.doctorData}');
 
+  print('Doctor name : ${doctor.doctorData['Name']}');
+  print('Doctor ${doctor.doctorData['Name']} age : ${doctor.doctorData['Age']}');
+  print('Doctor ${doctor.doctorData['Name']} gender : ${doctor.doctorData['Gender']}');
 
 }
