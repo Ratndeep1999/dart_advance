@@ -23,8 +23,8 @@
 class Rectangle {
 
   // private properties
-  late double _height;
-  late double _width;
+  double _height;
+  double _width;
 
   // constructor
   Rectangle(this._height, this._width);
@@ -62,23 +62,26 @@ class Rectangle {
   double area( ){
     return _height * _width ;
   }
-
-
 }
 
 
 void main(){
-  // object of rectangle class
-  Rectangle rectangle = Rectangle(5.00, 5.00);
 
-  print('Height : ${rectangle.height}');
-  print('Width : ${rectangle.width}');
-  print('Area of Rectangle : ${rectangle.area()}');
+  try{
+    // object of rectangle class
+    Rectangle rectangle = Rectangle(5.00, 5.00);
 
-  rectangle.height = 2.5 ;
-  rectangle.width = 2.5 ;
-  print('Height : ${rectangle.height}');
-  print('Width : ${rectangle.width}');
-  print('Area of Rectangle : ${rectangle.area()}');
+    print('Height : ${rectangle.height}');
+    print('Width : ${rectangle.width}');
+    print('Area of Rectangle : ${rectangle.area()}');
+
+    rectangle.height = 2.5 ;
+    rectangle.width = 2.5 ;
+    print('Height : ${rectangle.height}');
+    print('Width : ${rectangle.width}');
+    print('Area of Rectangle : ${rectangle.area()}');
+  } catch (e) {
+    print('Error : $e');
+  }
 
 }
