@@ -43,3 +43,27 @@ class AreaRectangle {
 }
 
 
+// class of area of square
+class Square{
+  int _side ;
+
+  Square(this._side);
+
+  int get side => _side ;
+
+  set side(int value){
+    if (value > 0) {
+      _side = value ;
+    } else {
+      ArgumentError("Side must be positive");
+    }
+  }
+
+  int area(){
+    return _side * _side ;
+  }
+
+}
+
+
+
