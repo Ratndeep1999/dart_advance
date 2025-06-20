@@ -81,13 +81,13 @@ void main() {
 
   print("\n");
 
-  // object of Notebook
+  // object of Notebook1
   NoteBook noteBook1 = NoteBook('Sonali', 100);
   print('Name : ${noteBook1.name}');
   print('Price : ${noteBook1.price}');
 
 
-  // object of Notebook
+  // object of Notebook2
   NoteBook noteBook2 = NoteBook('', 0);
   print('Name : ${noteBook2.name}');
   print('Price : ${noteBook2.price}');
