@@ -1,6 +1,7 @@
 
 
 
+
 /// Setter :
 // why setter use
 // it use to set value of property
@@ -28,6 +29,30 @@ class NoteBook{
 
 }
 
+
+// e.g of setter with exception
+class Mobile{
+  String? _brand ;
+  double? _prize ;
+
+  // setter to update value of private property _brand
+  set brand(String brand) => this._brand = brand ;
+
+  // setter to update value of private property _price with exception
+  set price(double price) {
+    if ( price <= 0 ) {
+      throw Exception('Price must be positive');  // i can remove Exception after throw
+    }
+    this._prize = price ;
+  }
+
+  void display() {
+    print('Mobile brand : ${_brand}');
+    print('Mobile price : ${_prize}');
+  }
+
+}
+
 void main() {
   // object of Notebook
   NoteBook noteBook = NoteBook();
@@ -35,8 +60,29 @@ void main() {
   noteBook.price = 250 ;
 
   noteBook.display();
+
   print('\n');
 
+  // object of mobile class
+  Mobile mobile = Mobile();
+  Mobile mobile2 = Mobile();
 
+  try {
+    mobile.price = 2500 ;
+    mobile.brand = 'Redmi' ;
+
+    print('Mobile brand : ${mobile._brand}');
+    print('Mobile price : ${mobile._prize}');
+
+    print('\n');
+
+    mobile2.price = -500 ;
+    mobile2.brand = 'Nokia' ;
+
+    print('Mobile brand : ${mobile2._brand}');
+    print('Mobile price : ${mobile2._prize}');
+  } catch (e) {
+    print('Error : $e');
+  }
 
 }
