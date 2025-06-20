@@ -53,13 +53,38 @@ class Mobile{
 
 }
 
+
+// e.g of student class with validation and exception
+class Student{
+  String? _name ;
+  int? _classNumber ;
+
+  // setter to update value of private property _name
+  set name(String name) {
+    this._name = name ;
+  }
+
+  // setter to update value of _classNumber with exception and validation
+  set classNumber(int classNumber) {
+    if ( classNumber <= 0 || classNumber > 12 ) {
+      throw ('Class Number must be between 1 and 12') ;
+    }
+    this._classNumber = classNumber ;
+  }
+
+}
+
+
+
 void main() {
+  print('\n');
+
   // object of Notebook
   NoteBook noteBook = NoteBook();
   noteBook.name = 'Sonali' ;
   noteBook.price = 250 ;
+  noteBook.display() ;
 
-  noteBook.display();
 
   print('\n');
 
@@ -81,6 +106,23 @@ void main() {
 
     print('Mobile brand : ${mobile2._brand}');
     print('Mobile price : ${mobile2._prize}');
+  } catch (e) {
+    print('Error : $e');
+  }
+
+  print('\n');
+
+
+  // object of Student
+  Student student = Student() ;
+
+  try {
+    student.name = 'Sonali' ;
+    student.classNumber = -12 ;
+
+    print('Student name : ${student._name}');
+    print('Student name : ${student._classNumber}');
+
   } catch (e) {
     print('Error : $e');
   }
