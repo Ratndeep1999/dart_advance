@@ -5,17 +5,19 @@
 // both enabled Encapsulation of dart
 // Both allow to define how to read( getter ) and modified( setter ) a properties
 
-/// Getter ( Read ) : method are use to access value of private property.
 
-// syntax
-// type get _member { return a value  }
-// type get -member => a value
-
-
-
-
-/// Setter ( modify ) : method are use to update the value of private property.
-// syntax
-// set _member (type value) {
-//   value = _member  // logic or validation
+/// Getter ( read ) : method is use to read ( access ) private property of class
+// syntax :
+// type get _memberName {
+//   return value
 // }
+// arrow format
+// type get member_name => _value
+
+/// Setter ( modify ) : method are use to modify ( update ) value of private property
+// syntax :
+// set _memberName (type value) {
+//   _memberName =  value   // valid logic
+// }
+
+
