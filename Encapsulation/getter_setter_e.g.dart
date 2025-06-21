@@ -54,6 +54,38 @@ class Student{
 }
 
 
+// class of BankAccount
+class BankAccount {
+  double _balance = 0.0 ;
+
+  // getter to access bank balance
+  double get balance {
+   return this._balance ;
+  }
+
+  // setter to set the value of
+  set balance (double balance) {
+    this._balance = balance ;
+  }
+
+
+  // method to deposit money
+  double deposit (double amount) {
+    return this._balance = this._balance + amount ;
+  }
+
+  // method to withdrawal money
+  dynamic withdrawal (double amount) {
+    if (this._balance >= amount) {
+      return this._balance = this._balance - amount  ; // return in double type otherwise dynamic means String
+    } else {
+      throw ('Insufficient Balance !');
+    }
+  }
+
+}
+
+
 void main() {
   print('\n');
 
@@ -71,13 +103,42 @@ void main() {
     print('Gender : ${student.gender}');
 
   } catch (e) {
-    print("Error : $e");
+    print("$e");
   }
 
 
   print('\n');
 
 
-  // Object of
+  // Object of BankAccount
+  BankAccount account = BankAccount();
+
+  print('Account balance : ${account.balance}');
+
+  try {
+    // account.deposit(1500.00);
+    print('\n');
+    account.deposit(1500.00);
+    print('Account balance : ${account.balance}');
+
+    print('\n');
+    account.withdrawal(500.00);
+    print('Account balance : ${account.balance}');
+
+    account.withdrawal(1000.00);
+    print('Account balance : ${account.balance}');
+
+    // account.withdrawal(1.00);
+
+    account.deposit(20.00);
+    print('Account balance : ${account.balance}');
+
+    account.withdrawal(50.00);
+
+
+  } catch (e) {
+    print('Error $e');
+  }
+
 
 }
