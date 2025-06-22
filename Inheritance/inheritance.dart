@@ -8,6 +8,6 @@
 
 
 
-void main(){
+void main()  {
 
 }
