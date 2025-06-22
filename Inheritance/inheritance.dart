@@ -1,7 +1,8 @@
 
-// Inheritance
+/// Inheritance
 
-// It is basically concept of inherit properties from Parent clas to Child class
+// It is basically concept of inherit properties from Parent clas to Child class.
+//
 
 
 
