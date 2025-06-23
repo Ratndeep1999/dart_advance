@@ -39,7 +39,40 @@
 //        Additional properties and methods }
 
 
+// e.g   of inheritance
+class Animal {        // Parent class
+  int numOfLegs ;
+  String name ;
+
+  // constructor
+  Animal(this.name, this.numOfLegs);
+
+  // method
+  eat() {
+    print('$name have $numOfLegs legs and eat\'s');
+  }
+
+}
+
+
+class Dog extends Animal {       // Child class
+
+  // calling Parent class constructor with properties
+  Dog(String name, int numOfLegs) : super(name, numOfLegs) ;    // super is use to refer parent class
+
+  // method of voice
+  voice() {
+    print('$name have $numOfLegs legs and voice is Bark!');
+  }
+
+}
 
 void main()  {
+
+  // Constructor
+  Dog dog = Dog("Chu-Chu", 4);
+
+  dog.eat();
+  dog.voice();
 
 }
