@@ -39,7 +39,7 @@
 //        Additional properties and methods }
 
 
-// e.g   of inheritance
+/// e.g   of inheritance
 class Animal {        // Parent class
   int numOfLegs ;
   String name ;
