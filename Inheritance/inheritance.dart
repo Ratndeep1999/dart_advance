@@ -7,7 +7,8 @@
 // It allow to define class that extend functionalities from another clas.
 // ' extend ' keyword is use to inherit properties from parent class.
 
-
+// [ Note : inheritance means, It always create " IS - A " relation between parent and child class ]
+// e.g : student  IS - A person ,  car IS - A  vehicle ,  dog  IS - A  animal
 
 
 
