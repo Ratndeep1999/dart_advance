@@ -31,6 +31,12 @@
 // It can be use to call Parents constructor or methods
 
 
+/// syntax :
+//        Parent class {
+//        properties and methods }
+
+//        Child class extends Parent class {
+//        Additional properties and methods }
 
 
 
