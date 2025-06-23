@@ -69,10 +69,10 @@ class Dog extends Animal {       // Child class
 
 void main()  {
 
-  // Constructor
+  // Object of child class
   Dog dog = Dog("Chu-Chu", 4);
 
-  dog.eat();
-  dog.voice();
+  dog.eat();  // method from parent class
+  dog.voice();  // method from child class
 
 }
