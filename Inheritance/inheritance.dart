@@ -12,6 +12,28 @@
 
 
 
+/// Key Components
+
+/// 1. Parent class ( Base class )  (  Super class ) :
+//  The class that properties and methods inherited by Child class
+
+
+/// 2. Child class ( Derived class )  ( sub class ) :
+// The class that inherit properties and methods from super class
+
+
+/// 3. Method Overriding :
+// It is ability of sub class to provide specific implementation for method that is already define in super class
+
+
+/// 3. Super class :
+// ' Super ' keyword is use to refer to Parent class
+// It can be use to call Parents constructor or methods
+
+
+
+
+
 void main()  {
 
 }
