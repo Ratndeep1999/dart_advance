@@ -42,6 +42,11 @@ void main() {
 
   print('\n');
 
+  // object of Cat
+  Cat cat = Cat();
+  cat.name = 'meow-meow' ;
+  cat.eat();
+  cat.voice();
 
 
 }
