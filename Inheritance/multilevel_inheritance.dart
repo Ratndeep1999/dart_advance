@@ -64,3 +64,17 @@ class Doctor extends Person {
     print('Hospital : $hospitalName');
   }
 }
+
+class Specialist extends Doctor {
+  String? specialization ;
+
+  void display () {
+    super.display();
+    print('Specialist : $specialization');
+  }
+}
+
+
+void main () {
+
+}
