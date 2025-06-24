@@ -106,4 +106,14 @@ class Puppy extends Dog {
   void weep () {
     print('Puppy is weeping..!');
   }
+
+  @override
+  void eat () {
+    print('Puppy is Eating..!');
+  }
+
+  @override  // i can omit
+  void voice () {
+    print('Puppy is Barking..!');
+  }
 }
