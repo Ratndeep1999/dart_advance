@@ -59,7 +59,6 @@ void main() {
 
 }
 
-
 // challenge
 class Person {
   String? name ;
@@ -87,3 +86,15 @@ class Specialist extends Doctor {
   }
 }
 
+// second challenge
+class Animal {
+
+}
+
+class Dog extends Animal {
+
+}
+
+class Puppy extends Dog {
+
+}
