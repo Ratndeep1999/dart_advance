@@ -32,11 +32,16 @@ class Cat extends Animal {
 
 
 void main() {
+  print('\n');
 
   // object of Dog
   Dog dog = Dog();
   dog.name = 'Pu-Pu' ;
   dog.eat();
   dog.voice();
+
+  print('\n');
+
+
 
 }
