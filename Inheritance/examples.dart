@@ -81,6 +81,12 @@ void main () {
 
   // object of hayabusa class
   Hayabusa hayabusa = Hayabusa();
+  hayabusa.brand = 'Hayabusa' ;
+  hayabusa.price = 2500000 ;
+  hayabusa.silencer = 2 ;
+
+  hayabusa.year = 1999 ;
+  hayabusa.color = 'Dark Black' ;
 
 }
 
