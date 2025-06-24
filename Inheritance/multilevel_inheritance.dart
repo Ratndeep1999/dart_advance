@@ -44,6 +44,19 @@ void main() {
   cyberTruck.color = 'Silver' ;
   cyberTruck.display();
 
+  print('\n');
+
+  // object of specialist
+  Specialist specialist = Specialist();
+
+  specialist.name = 'Sonali' ;
+  specialist.age = 23 ;
+  specialist.degrees = ['M.B.B.S' , 'M.D' ] ;
+  specialist.hospitalName = 'Sonali Hospital' ;
+  specialist.specialization = 'Neurologist';
+
+  specialist.display() ;
+
 }
 
 
@@ -74,7 +87,3 @@ class Specialist extends Doctor {
   }
 }
 
-
-void main () {
-
-}
