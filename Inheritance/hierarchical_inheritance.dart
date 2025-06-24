@@ -23,3 +23,9 @@ class Dog extends Animal {
   }
 }
 
+class Cat extends Animal {
+
+  void voice () {
+    print('$name is meows..!');
+  }
+}
