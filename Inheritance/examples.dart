@@ -60,12 +60,14 @@ class Bike {
 
 // Sub class
 class Hayabusa extends Bike {
-  double? price ;
   String? brand ;
+  double? price ;
+  String? model ;
   int? silencer ;
 
   void displayDetails () {
     print('Brand : $brand');
+    print('Model : $model');
     print('Price : $price');
     print('Number of Silencers : $silencer');
   }
@@ -84,6 +86,7 @@ void main () {
   // object of hayabusa class
   Hayabusa hayabusa = Hayabusa();
   hayabusa.brand = 'Hayabusa' ;
+  hayabusa.model = 'Hayabusa m2.0' ;
   hayabusa.price = 2500000 ;
   hayabusa.silencer = 2 ;
 
