@@ -50,5 +50,4 @@ void main() {
   cat.eat();  // method of Animal class
   cat.voice();
 
-
 }
