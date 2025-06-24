@@ -39,7 +39,7 @@ void main() {
   // object of Dog
   Dog dog = Dog();
   dog.name = 'Pu-Pu' ;
-  dog.eat();
+  dog.eat();  // method of Animal class
   dog.voice();
 
   print('\n');
@@ -47,7 +47,7 @@ void main() {
   // object of Cat
   Cat cat = Cat();
   cat.name = 'meow-meow' ;
-  cat.eat();
+  cat.eat();  // method of Animal class
   cat.voice();
 
 
