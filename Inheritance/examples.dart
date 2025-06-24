@@ -31,7 +31,15 @@ class Employee extends Person {
   // constructor
   Employee(String name, int age, int mobNo, this.companyName, this.salary, this.gender) : super(name,age,mobNo);
 
-
+  // overriding parent class method
+  @override
+  void details () {
+    print('Company name : $companyName');
+    print('Employee name : $name');
+    print('Employee age : $age');
+    print('Employee gender : $name');
+    print('Employee contact no. : $mobNo');
+    print('Employee salary : $salary');
   }
 
 }
