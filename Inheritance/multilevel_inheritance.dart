@@ -89,12 +89,21 @@ class Specialist extends Doctor {
 // second challenge
 class Animal {
 
+  void eat () {
+    print('Animal is eat..!');
+  }
 }
 
 class Dog extends Animal {
 
+  void voice () {
+    print('Dog is Barking...!');
+  }
 }
 
 class Puppy extends Dog {
 
+  void weep () {
+    print('Puppy is weeping..!');
+  }
 }
