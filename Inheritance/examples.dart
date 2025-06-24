@@ -78,6 +78,8 @@ void main () {
   Employee employee = Employee('Sonali', 23, 8551830830, 'RC Zones Pvt. Ltd.', 79999, 'Female');
   employee.details();
 
+  print('\n');
+
 
   // object of hayabusa class
   Hayabusa hayabusa = Hayabusa();
@@ -87,6 +89,9 @@ void main () {
 
   hayabusa.year = 1999 ;
   hayabusa.color = 'Dark Black' ;
+
+  hayabusa.displayDetails();
+  hayabusa.display();
 
 }
 
