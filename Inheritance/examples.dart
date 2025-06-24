@@ -52,6 +52,9 @@ class Bike {
   int? year ;
   String? color ;
 
+  void display () {
+
+  }
 
 }
 
