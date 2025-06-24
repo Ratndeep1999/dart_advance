@@ -45,3 +45,10 @@ void main() {
   cyberTruck.display();
 
 }
+
+
+// challenge
+class person {
+  String? name ;
+  int? age ;
+}
