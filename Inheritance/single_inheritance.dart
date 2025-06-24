@@ -25,6 +25,16 @@ class Tiger extends Animal {
 }
 
 
+// challenge
+class Car {
+  String? name ;
+  double? price ;
+
+  Car(this.name, this.price);
+}
+
+
+
 
 void main () {
 
