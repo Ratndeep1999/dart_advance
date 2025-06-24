@@ -16,6 +16,7 @@ class Animal {
   }
 }
 
+// Inherit from Animal class
 class Dog extends Animal {
 
   void voice () {
@@ -23,6 +24,7 @@ class Dog extends Animal {
   }
 }
 
+// Inherit from Animal class
 class Cat extends Animal {
 
   void voice () {
