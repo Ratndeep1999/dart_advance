@@ -12,7 +12,6 @@
 class Car {
   String? name ;
   double? price ;
-
 }
 
 // sub class
@@ -28,9 +27,9 @@ class CyberTruck extends Tesla {
   String? color ;
 
   void display() {
-    super.display();
-    print('Color : $color');
+    super.display();    // super is use to call the parent class method
     print('Model : $model');
+    print('Color : $color');
   }
 }
 
@@ -39,6 +38,8 @@ class CyberTruck extends Tesla {
 void main() {
   CyberTruck cyberTruck = CyberTruck();
 
+  cyberTruck.name = 'Tesla ' ;
+  cyberTruck.price = 5500000 ;
   cyberTruck.model = 'CyberTruck' ;
   cyberTruck.color = 'Silver' ;
   cyberTruck.display();
