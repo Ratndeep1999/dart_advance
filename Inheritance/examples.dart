@@ -28,6 +28,9 @@ class Employee extends Person {
   double salary ;
   String gender ;
 
+  // constructor
+  Employee(String name, int age, int mobNo, this.companyName, this.salary, this.gender) : super(name,age,mobNo);
+
 
   }
 
