@@ -64,6 +64,11 @@ class Hayabusa extends Bike {
   String? brand ;
   int? silencer ;
 
+  void displayDetails () {
+    print('Brand : $brand');
+    print('Price : $price');
+    print('Number of Silencers : $silencer');
+  }
 
 }
 
