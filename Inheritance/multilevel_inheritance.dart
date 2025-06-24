@@ -48,7 +48,19 @@ void main() {
 
 
 // challenge
-class person {
+class Person {
   String? name ;
   int? age ;
+}
+
+class Doctor extends Person {
+  List <String>? degrees ;
+  String? hospitalName ;
+
+  void display () {
+    print('Name : $name');
+    print('Age : $age');
+    print('Degrees : $degrees');
+    print('Hospital : $hospitalName');
+  }
 }
