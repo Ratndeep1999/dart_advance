@@ -29,3 +29,14 @@ class Cat extends Animal {
     print('$name is meows..!');
   }
 }
+
+
+void main() {
+
+  // object of Dog
+  Dog dog = Dog();
+  dog.name = 'Pu-Pu' ;
+  dog.eat();
+  dog.voice();
+
+}
