@@ -37,9 +37,18 @@ class Employee extends Person {
     print('Company name : $companyName');
     print('Employee name : $name');
     print('Employee age : $age');
-    print('Employee gender : $name');
+    print('Employee gender : $gender');
     print('Employee contact no. : $mobNo');
     print('Employee salary : $salary');
   }
+
+}
+
+void main () {
+
+  // object of Employee class initializing values to constructor
+  Employee employee = Employee('Sonali', 23, 8551830830, 'RC Zones Pvt. Ltd.', 79999, 'Female');
+  employee.details();
+
 
 }
