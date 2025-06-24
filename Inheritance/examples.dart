@@ -44,6 +44,13 @@ class Employee extends Person {
 
 }
 
+
+// e.g of inheritance without constructor and method overriding
+// Super class
+class Bike {
+
+}
+
 void main () {
 
   // object of Employee class initializing values to constructor
@@ -51,3 +58,6 @@ void main () {
   employee.details();
 
 }
+
+
+
