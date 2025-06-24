@@ -78,6 +78,10 @@ void main () {
   Employee employee = Employee('Sonali', 23, 8551830830, 'RC Zones Pvt. Ltd.', 79999, 'Female');
   employee.details();
 
+
+  // object of hayabusa class
+  Hayabusa hayabusa = Hayabusa();
+
 }
 
 
