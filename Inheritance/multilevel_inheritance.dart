@@ -24,13 +24,23 @@ class Tesla extends Car {
 }
 
 class CyberTruck extends Tesla {
+  String? model ;
   String? color ;
 
   void display() {
     super.display();
     print('Color : $color');
+    print('Model : $model');
   }
 }
 
 
 
+void main() {
+  CyberTruck cyberTruck = CyberTruck();
+
+  cyberTruck.model = 'CyberTruck' ;
+  cyberTruck.color = 'Silver' ;
+  cyberTruck.display();
+
+}
