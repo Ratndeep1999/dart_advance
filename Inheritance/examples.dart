@@ -12,7 +12,12 @@ class Person {
   // Parameterized constructor
   Person(this.name, this.age, this.mobNo);
 
-
+  // method
+  void details () {
+    print('Person name : $name');
+    print('Person age : $age');
+    print('Mobile No. : $mobNo');
+  }
 
 }
 
