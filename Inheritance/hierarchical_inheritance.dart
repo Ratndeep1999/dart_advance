@@ -7,3 +7,12 @@
 // e.g  Tesla, Honda, Tata  inherited from Car class
 
 
+// e.g of Hierarchical inheritance
+class Animal {
+  String? name ;
+
+  void eat () {
+    print('$name is Eating..!');
+  }
+}
+
