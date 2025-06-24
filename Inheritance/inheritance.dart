@@ -67,6 +67,37 @@ class Dog extends Animal {       // Child class
 
 }
 
+
+// e.g of overriding method in inheritance
+// Base class
+class SuperCar {
+  double engineHp ;
+
+  SuperCar (this.engineHp) ;
+
+  // method of base class
+  void engine () {
+    print('Super cars has faster and expensive engines');
+  }
+}
+
+// Derived class
+class Lamborghini extends SuperCar {
+
+  // constructor to call property from Parent class
+  Lamborghini (double engineHp) : super(engineHp) ;
+
+  // method overriding
+  @override
+  void engine () {
+    print('Lamborghini engine have $engineHp cc engine that gives much power');
+  }
+
+}
+
+
+
+
 void main()  {
 
   // Object of child class
@@ -74,5 +105,12 @@ void main()  {
 
   dog.eat();  // method from parent class
   dog.voice();  // method from child class
+
+
+  // Object of Super car class
+  Lamborghini lamborghini = Lamborghini(5000.00);
+
+  // derived class method calling
+  lamborghini.engine() ;
 
 }
