@@ -60,6 +60,10 @@ class Bike {
 
 // Sub class
 class Hayabusa extends Bike {
+  double? price ;
+  String? brand ;
+  int? silencer ;
+
 
 }
 
