@@ -58,6 +58,11 @@ class Bike {
 
 }
 
+// Sub class
+class Hayabusa extends Bike {
+
+}
+
 void main () {
 
   // object of Employee class initializing values to constructor
