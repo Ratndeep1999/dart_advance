@@ -3,5 +3,27 @@
 
 
 /// Multilevel Inheritance
-// A clas can inherit from another class and that class also can inherit from another class .
-// we can extend a class from another class which is already extended from another class .
+// A clas can inherit from another class and that class also can inherit from another class.
+// We can extend a class from another class which is already extended from another class.
+
+
+// e.g of Multilevel Inheritance
+// parent class
+class Car {
+  String? name ;
+  double? price ;
+
+}
+
+// sub class
+class Tesla extends Car {
+  void display() {
+    print('Name : $name');
+    print('Price : $price');
+  }
+}
+
+
+
+
+
