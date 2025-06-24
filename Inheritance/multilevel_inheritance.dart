@@ -57,6 +57,14 @@ void main() {
 
   specialist.display() ;
 
+  print('\n');
+
+  // object of puppy
+  Puppy puppy = Puppy();
+  puppy.eat();
+  puppy.voice();
+  puppy.weep();
+
 }
 
 // challenge
