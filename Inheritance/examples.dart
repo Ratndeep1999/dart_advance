@@ -25,5 +25,4 @@ class Person {
 // Child class
 class Employee extends Person {
 
-
 }
