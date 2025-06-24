@@ -48,6 +48,10 @@ class Employee extends Person {
 // e.g of inheritance without constructor and method overriding
 // Super class
 class Bike {
+  double? price ;
+  int? year ;
+  String? color ;
+
 
 }
 
