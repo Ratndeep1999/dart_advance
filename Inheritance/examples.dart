@@ -48,12 +48,12 @@ class Employee extends Person {
 // e.g of inheritance without constructor and method overriding
 // Super class
 class Bike {
-  double? price ;
   int? year ;
   String? color ;
 
   void display () {
-
+    print('Color : $color');
+    print('Year : $year');
   }
 
 }
