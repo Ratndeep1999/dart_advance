@@ -94,6 +94,3 @@ void main () {
   hayabusa.display();
 
 }
-
-
-
