@@ -24,5 +24,11 @@ class Person {
 
 // Child class
 class Employee extends Person {
+  String companyName ;
+  double salary ;
+  String gender ;
+
+
+  }
 
 }
