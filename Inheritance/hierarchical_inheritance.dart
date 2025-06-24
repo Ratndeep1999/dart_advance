@@ -16,3 +16,10 @@ class Animal {
   }
 }
 
+class Dog extends Animal {
+
+  void voice () {
+    print('$name is Barking..!');
+  }
+}
+
