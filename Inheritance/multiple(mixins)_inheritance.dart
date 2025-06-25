@@ -60,6 +60,10 @@ void main () {
   duck.voice();
 
 
-
+  // Object of Gun
+  Gun sniper = Gun();
+  sniper.reload();
+  sniper.aim();
+  sniper.Shoot();
 
 }
