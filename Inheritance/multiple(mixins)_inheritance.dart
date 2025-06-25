@@ -35,7 +35,11 @@ class Reload {
   }
 }
 
-
+class Aim {
+  void aim () {
+    print('Aming');
+  }
+}
 
 
 
