@@ -19,6 +19,7 @@ mixin class CanFly {
   }
 }
 
+// Inherit from more than one parent class
 class Duck with CanSwim, CanFly {
   void voice () {
     print('Quack-Quack');
@@ -27,17 +28,11 @@ class Duck with CanSwim, CanFly {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 void main () {
 
+  // object of Duck
+  Duck duck = Duck();
+  duck.swim();
+  duck.fly();
+  duck.voice();
 }
