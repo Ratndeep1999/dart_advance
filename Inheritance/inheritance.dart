@@ -39,6 +39,14 @@
 //        Additional properties and methods }
 
 
+/// Types :
+// 1. Single Inheritance
+// 2. Multilevel Inheritance
+// 3. Hierarchical Inheritance
+// 4. Multiple Inheritance [ Mixins ]
+
+
+
 /// e.g   of inheritance
 class Animal {        // Parent class
   int numOfLegs ;
