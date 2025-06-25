@@ -50,7 +50,6 @@ class Gun with Reload, Aim {
 
 
 
-
 void main () {
 
   // Object of Duck
