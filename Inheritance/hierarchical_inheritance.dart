@@ -40,6 +40,15 @@ class Shape {
 
 }
 
+// class Rectangle inherit from Shape
+class Rectangle extends Shape {
+
+  double area () {
+    return diameter1! * diameter2! ;  // null check operator that is tells not null
+  }
+}
+
+
 
 
 void main() {
