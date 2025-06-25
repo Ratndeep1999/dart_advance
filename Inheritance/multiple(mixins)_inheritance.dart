@@ -28,6 +28,19 @@ class Duck with CanSwim, CanFly {
 
 
 
+// second e.g of mixins
+class Reload {
+  void reload () {
+    print('Reload');
+  }
+}
+
+
+
+
+
+
+
 void main () {
 
   // object of Duck
@@ -35,4 +48,5 @@ void main () {
   duck.swim();
   duck.fly();
   duck.voice();
+
 }
