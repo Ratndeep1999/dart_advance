@@ -33,6 +33,15 @@ class Cat extends Animal {
 }
 
 
+// e.g of area
+class Shape {
+  double? diameter1 ;
+  double? diameter2 ;
+
+}
+
+
+
 void main() {
   print('\n');
 
@@ -49,5 +58,9 @@ void main() {
   cat.name = 'meow-meow' ;
   cat.eat();  // method of Animal class
   cat.voice();
+
+  print('\n');
+
+
 
 }
