@@ -19,7 +19,11 @@ mixin class CanFly {
   }
 }
 
-
+class Duck with CanSwim, CanFly {
+  void voice () {
+    print('Quack-Quack');
+  }
+}
 
 
 
