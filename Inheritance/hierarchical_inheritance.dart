@@ -49,6 +49,13 @@ class Rectangle extends Shape {
 }
 
 
+// class Triangle inherit from Shape
+class Triangle extends Shape {
+
+  double area () {
+    return 0.5 * diameter1! * diameter2! ;
+  }
+}
 
 
 void main() {
