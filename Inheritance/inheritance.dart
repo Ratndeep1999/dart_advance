@@ -114,3 +114,10 @@ void main()  {
   lamborghini.engine() ;
 
 }
+
+
+/// key points of inheritance
+// mostly use to reuse the code
+// it is concept which is archived by using 'Extend' keyword
+// properties and methods of super class access by sub class
+// super keyword is use to define Parent class properties and methods
