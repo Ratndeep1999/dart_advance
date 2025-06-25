@@ -53,10 +53,13 @@ class Gun with Reload, Aim {
 
 void main () {
 
-  // object of Duck
+  // Object of Duck
   Duck duck = Duck();
   duck.swim();
   duck.fly();
   duck.voice();
+
+
+
 
 }
