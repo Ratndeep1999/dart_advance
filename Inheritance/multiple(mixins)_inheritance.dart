@@ -29,18 +29,24 @@ class Duck with CanSwim, CanFly {
 
 
 // second e.g of mixins
-class Reload {
+mixin class Reload {
   void reload () {
     print('Reload');
   }
 }
 
-class Aim {
+mixin class Aim {
   void aim () {
     print('Aming');
   }
 }
 
+// child class inherit from Reload and Aim Parent class
+class Gun with Reload, Aim {
+  void Shoot () {
+    print('Shoot');
+  }
+}
 
 
 
