@@ -59,6 +59,7 @@ void main () {
   duck.fly();
   duck.voice();
 
+  print('\n');
 
   // Object of Gun
   Gun sniper = Gun();
