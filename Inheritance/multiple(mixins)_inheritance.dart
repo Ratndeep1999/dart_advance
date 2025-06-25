@@ -7,11 +7,19 @@
 // Multiple Inheritance is basically the ability of class to inherit from more than one parent class
 
 // e.g of Multiple Inheritance ( Mixins )
-class CanSwim {
+mixin class CanSwim {
   void swim () {
     print('Swimming');
   }
 }
+
+mixin class CanFly {
+  void fly () {
+    print('Flying');
+  }
+}
+
+
 
 
 
