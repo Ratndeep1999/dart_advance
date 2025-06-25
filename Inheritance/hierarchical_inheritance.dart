@@ -83,6 +83,10 @@ void main() {
   rectangle.diameter2 = 5.20 ;
   print('Area of Rectangle : ${rectangle.area()}');
 
-
+  // Object of Triangle
+  Triangle triangle = Triangle();
+  triangle.diameter1 = 10.50 ;
+  triangle.diameter2 = 5.20 ;
+  print('Area of Triangle : ${triangle.area()}');
 
 }
