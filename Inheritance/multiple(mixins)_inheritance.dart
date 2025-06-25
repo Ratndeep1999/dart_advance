@@ -22,7 +22,7 @@ mixin class CanFly {
 // Inherit from more than one parent class
 class Duck with CanSwim, CanFly {
   void voice () {
-    print('Quack-Quack');
+    print('Quack-Quack..!');
   }
 }
 
