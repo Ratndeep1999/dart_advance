@@ -77,6 +77,12 @@ void main() {
 
   print('\n');
 
+  // Object of Rectangle
+  Rectangle rectangle = Rectangle();
+  rectangle.diameter1 = 10.50 ;
+  rectangle.diameter2 = 5.20 ;
+  print('Area of Rectangle : ${rectangle.area()}');
+
 
 
 }
