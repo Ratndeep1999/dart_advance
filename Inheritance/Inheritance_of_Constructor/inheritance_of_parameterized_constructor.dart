@@ -34,3 +34,7 @@ void main() {
   Friend sonali = Friend('Female', 'Sonali', 23);
   sonali.friendDetails();
 }
+
+// Name : Sonali
+// Age : 23
+// Gender : Female
