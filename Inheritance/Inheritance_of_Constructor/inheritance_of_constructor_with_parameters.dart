@@ -22,5 +22,4 @@ class Employee extends Person {
     print('Child constructor');
     print('Salary : $salary');
   }
-
 }
