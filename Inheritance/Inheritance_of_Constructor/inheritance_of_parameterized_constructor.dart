@@ -27,3 +27,9 @@ class Friend extends Person{
     print('Gender : $gender');
   }
 }
+
+
+void main() {
+
+  Friend sonali = Friend('Female', 'Sonali', 23);
+}
