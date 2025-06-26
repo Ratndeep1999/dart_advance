@@ -3,7 +3,6 @@
 /// Super keyword in Inheritance
 
 // before learn ' Super ', need to understand constructor and inheritance
-
 // Super keyword is use to refer to Parent class, It is use to call Parent class properties and methods
 
 // e.g of super keyword with properties and methods
@@ -33,14 +32,25 @@ class Asia extends Continent {
   String capital ;
   int noOfCountry ;
   int noOfMountains ;
+  int noOfRivers ;
 
   // constructor
-  Asia(this.capital, this.noOfCountry, this.noOfMountains, String name, double landmass, int landmassRank, int numberOfContinents)
+  Asia(this.capital, this.noOfCountry, this.noOfMountains, this.noOfRivers, String name, double landmass, int landmassRank, int numberOfContinents)
       : super(name,landmass, landmassRank, numberOfContinents) ;
 
   // Asia details method
   void detailsOfAsia () {
     super.continent(); // calling continent method from continent class
-    print('Name : ');
+    print('Name : $name');
+    print('Number of Countries : $noOfCountry');
+    print('Number of Mountains : $noOfMountains');
+    print('Number of Countries : $noOfCountry');
   }
+}
+
+
+
+
+void main() {
+  // object of Asia class
 }
