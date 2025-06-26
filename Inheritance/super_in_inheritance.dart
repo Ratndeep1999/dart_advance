@@ -21,7 +21,7 @@ class Continent {
   // method
   void continent () {
     print('Continent is land Part of Earth.');
-    print('There are total $numberOfContinents on Earth.\n');
+    print('There are total $numberOfContinents Continents on Earth.\n');
     print('Continent : ');
   }
 }
