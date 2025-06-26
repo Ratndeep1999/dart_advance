@@ -21,4 +21,10 @@ class Partner extends Person {
 
   // Alternate approach
   // Partner ({ this.gender, this.type = 'Wife', String? name, int? age, String? breed}) : super( name: name, age: age, breed: breed ) ;
+
+}
+
+
+void main() {
+
 }
