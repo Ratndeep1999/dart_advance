@@ -13,3 +13,14 @@ class Person {
     print('Age : $age');
   }
 }
+
+class Employee extends Person {
+  double? salary ;
+
+  // constructor of employee
+  Employee (double salary, String name, int age) : super(name, age) {
+    print('Child constructor');
+    print('Salary : $salary');
+  }
+
+}
