@@ -26,4 +26,11 @@ class Child extends Parent {
 
 void main() {
 
+  // Object of Child class
+  Child child = Child();
+
+  // output :
+  // This is parent class constructor   ( first parent class constructor called )
+  // This is Child constructor   ( then child class constructor call )
+
 }
