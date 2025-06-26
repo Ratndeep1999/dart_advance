@@ -22,7 +22,7 @@ class Friend extends Person{
   // parameterized constructor
   Friend (this.gender, String name, int age) : super(name, age);
 
-  void details () {
+  void friendDetails () {
     super.details();
     print('Gender : $gender');
   }
@@ -32,4 +32,5 @@ class Friend extends Person{
 void main() {
 
   Friend sonali = Friend('Female', 'Sonali', 23);
+  sonali.friendDetails();
 }
