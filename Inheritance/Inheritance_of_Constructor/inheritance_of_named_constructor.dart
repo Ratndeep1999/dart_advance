@@ -22,3 +22,8 @@ class Child extends Parent {
     print('Child constructor');
   }
 }
+
+
+void main() {
+  Child child = Child();
+}
