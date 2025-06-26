@@ -14,3 +14,16 @@ class Parent {
     print('This is parent class constructor');
   }
 }
+
+class Child extends Parent {
+
+  // constructor
+  Child() {
+    print('This is Child constructor');
+  }
+}
+
+
+void main() {
+
+}
