@@ -8,11 +8,36 @@
 
 // e.g of super keyword with properties and methods
 
+// continent class
 class Continent {
+  // properties
   String name ;
   double landmass ;
   int landmassRank ;
+  int numberOfContinents ;
 
-  Continent (this.name, this.landmass, this.landmassRank);
+  // constructor
+  Continent (this.name, this.landmass, this.landmassRank, this.numberOfContinents);
 
+  // method
+  void continent () {
+    print('Continent is land Part of Earth.');
+    print('There are total $numberOfContinents on Earth.');
+  }
+}
+
+// class Asia
+class Asia extends Continent {
+  // properties
+  String capital ;
+  int noOfCountry ;
+  int noOfMountains ;
+
+  // constructor
+  Asia(this.capital, this.noOfCountry, this.noOfMountains, String name, double landmass, int landmassRank, int numberOfContinents)
+      : super(name,landmass, landmassRank, numberOfContinents) ;
+
+  void detailsOfAsia () {
+    print('');
+  }
 }
