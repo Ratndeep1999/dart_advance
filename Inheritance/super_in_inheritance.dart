@@ -22,7 +22,7 @@ class Continent {
   // method
   void continent () {
     print('Continent is land Part of Earth.');
-    print('There are total $numberOfContinents on Earth.');
+    print('There are total $numberOfContinents on Earth.\n');
   }
 }
 
@@ -37,7 +37,9 @@ class Asia extends Continent {
   Asia(this.capital, this.noOfCountry, this.noOfMountains, String name, double landmass, int landmassRank, int numberOfContinents)
       : super(name,landmass, landmassRank, numberOfContinents) ;
 
+  // Asia details method
   void detailsOfAsia () {
+    super.continent(); // calling continent method from continent class
     print('');
   }
 }
