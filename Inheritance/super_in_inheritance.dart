@@ -23,6 +23,7 @@ class Continent {
   void continent () {
     print('Continent is land Part of Earth.');
     print('There are total $numberOfContinents on Earth.\n');
+    print('Continent : ');
   }
 }
 
@@ -40,6 +41,6 @@ class Asia extends Continent {
   // Asia details method
   void detailsOfAsia () {
     super.continent(); // calling continent method from continent class
-    print('');
+    print('Name : ');
   }
 }
