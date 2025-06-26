@@ -16,3 +16,14 @@ class Person {
 
 }
 
+class Friend extends Person{
+  String gender ;
+
+  // parameterized constructor
+  Friend (this.gender, String name, int age) : super(name, age);
+
+  void details () {
+    super.details();
+    print('Gender : $gender');
+  }
+}
