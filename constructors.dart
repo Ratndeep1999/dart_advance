@@ -35,6 +35,15 @@ class Person{
 // it is use to initialize values when an object is created
 
 
+// Four types of Constructors
+// 1. Default constructor  : called automatically when object is created
+// 2. Parameterized constructor : pass parameters it can be positional, named, optional
+// 3. Named constructor : define constructor with name, help to create multiple constructor in single class
+// 4. Const constructor : constant object whose values can change
+
+
+
+
 // e.g of Student class
 class Student{
   String? name ;
@@ -58,7 +67,7 @@ class Employee{
   String? department ;
   double? salary ;
 
-  // constructor with optional parameters
+  // constructor with positional and optional parameters
   Employee(this.name, this.age, [this.department = 'N/A', this.salary = 0.00]);
 
   void printDetails(){
