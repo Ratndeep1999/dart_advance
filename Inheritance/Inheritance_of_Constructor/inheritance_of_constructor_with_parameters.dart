@@ -30,3 +30,7 @@ void main() {
   Employee employee = Employee(23000, 'Sonali', 23);
 
 }
+
+// Name : Sonali
+// Age : 23
+// Salary : 23000.0
