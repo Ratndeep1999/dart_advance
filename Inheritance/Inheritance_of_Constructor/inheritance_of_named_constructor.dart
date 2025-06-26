@@ -15,3 +15,10 @@ class Parent {
   }
 }
 
+class Child extends Parent {
+
+  // constructor with super to call Parent named constructor
+  Child () : super.named() {
+    print('Child constructor');
+  }
+}
