@@ -82,6 +82,22 @@ class Asia extends Continent {
 }
 
 
+
+// e.g of super.property
+class Car {
+  int noOfSeats = 4 ;
+}
+
+class Tesla extends Car {
+  int noOfSeats = 6 ;
+
+  void details() {
+    print('Total Seats : $noOfSeats');
+    print('Total Seats : ${super.noOfSeats}');
+  }
+}
+
+
 void main() {
   // object of Asia class
   Asia asia = Asia('Not Specific', 49, 130, 10000, 'Yangtze River (Chang Jiang) – 6,300 km (China)',
@@ -89,5 +105,7 @@ void main() {
       'Russia 77%', 'Maldives', 'Tokyo, Japan', 'Hum (Croatia)', 'Tokyo, Japan', 'Asia', '44.58 million km² (~30% of Earth’s land area)',
       1, 7);
   asia.detailsOfAsia();
-  
+
+
+  //
 }
