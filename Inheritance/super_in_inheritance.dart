@@ -93,7 +93,7 @@ class Tesla extends Car {
 
   void details() {
     print('Total Seats : $noOfSeats');
-    print('Total Seats : ${super.noOfSeats}');
+    print('Total Seats : ${super.noOfSeats}');  // access of parent class property
   }
 }
 
@@ -107,5 +107,7 @@ void main() {
   asia.detailsOfAsia();
 
 
-  //
+  // object of Tesla
+  Tesla tesla = Tesla();
+  tesla.details();
 }
