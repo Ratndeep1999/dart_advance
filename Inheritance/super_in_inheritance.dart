@@ -82,42 +82,6 @@ class Asia extends Continent {
 }
 
 
-// class India
-class India {
-  // properties
-  String name ;
-  String capital ;
-  String economicalCapital ;
-  int totalStates ;
-  String biggestState ;
-  String smallestState ;
-  String longestRiver ;
-  String largestRiver ;
-  String smallestRiver ;
-  String biggestCity ;
-  String smallestCity ;
-  String populatedCity ;
-  String educatedCity ;
-
-  // constructor
-  India(this.name, this.capital, this.economicalCapital, this.totalStates, this.biggestState,
-      this.smallestState, this.longestRiver, this.largestRiver, this.smallestRiver, this.biggestCity,
-      this.smallestCity, this.populatedCity, this.educatedCity ) ;
-
-
-  // method
-  void detailsOfIndia() {
-    print('Country : ');
-    print('Name : $name ');
-
-  }
-}
-
-
-
-
-
-
 void main() {
   // object of Asia class
   Asia asia = Asia('Not Specific', 49, 130, 10000, 'Yangtze River (Chang Jiang) – 6,300 km (China)',
