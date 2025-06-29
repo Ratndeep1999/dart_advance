@@ -35,3 +35,8 @@
 // 2. Method Overloading :
 // Although Dart does not support method overloading in same way as some other languages.
 // we can achieve this similar behaviour using 'optional parameters' or 'named parameters'
+
+
+// 3. Dynamic typing :
+// Dart is dynamically type language,
+// Allowing objects to be assigned to variables of different types, enabling polymorphic behavior.
