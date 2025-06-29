@@ -20,3 +20,7 @@
 
 
 // Here, Reference type : Animal , Object type = Dog(), Cat()
+
+// [ Note : @Overriding : it is a annotation ]
+
+
