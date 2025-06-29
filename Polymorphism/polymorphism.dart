@@ -9,3 +9,5 @@
 
 // It is the core concept of OOp's Programing
 // Polymorphism allow to " Objects of different classes to be treated as object of common superclass. "
+
+// Polymorphism is updating or modifying the features, function or implementation that already exists in parent class
