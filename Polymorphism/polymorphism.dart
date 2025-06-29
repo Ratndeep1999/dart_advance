@@ -40,3 +40,11 @@
 // 3. Dynamic typing :
 // Dart is dynamically type language,
 // Allowing objects to be assigned to variables of different types, enabling polymorphic behavior.
+
+
+
+
+/// Types of Polymorphism
+// Compile_time polymorphism ( Static polymorphism )
+// Run_time polymorphism ( Dynamic polymorphism )
+
