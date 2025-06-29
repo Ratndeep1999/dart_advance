@@ -26,6 +26,12 @@
 
 /// Key concepts of Polymorphism :
 
-// 1. Method overriding : A derived/ child/ sub class can provide specific implementation
+// 1. Method overriding :
+// A derived/ child/ sub class can provide specific implementation
 // of method that is already define in its parent class.
 // A method which is implemented in sub class, and that method is already define in its Parent class.
+
+
+// 2. Method Overloading :
+// Although Dart does not support method overloading in same way as some other languages.
+// we can achieve this similar behaviour using 'optional parameters' or 'named parameters'
