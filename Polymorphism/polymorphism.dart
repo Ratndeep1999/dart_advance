@@ -24,4 +24,8 @@
 // [ Note : @Overriding : it is a annotation ]
 
 
-/// Key concepts of Polymorphism
+/// Key concepts of Polymorphism :
+
+// 1. Method overriding : A derived/ child/ sub class can provide specific implementation
+// of method that is already define in its parent class.
+// A method which is implemented in sub class, and that method is already define in its Parent class.
