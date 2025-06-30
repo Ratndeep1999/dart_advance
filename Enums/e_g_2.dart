@@ -28,5 +28,10 @@ void main() {
     lights.display();
   }
 
+  // Light : Green   Action : Go
+  // Light : Green   Action : Go
+  // Light : Yellow   Action : Go Slow
+  // Light : Red   Action : Stop
+
 }
 
