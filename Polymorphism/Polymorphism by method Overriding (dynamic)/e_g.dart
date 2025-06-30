@@ -104,6 +104,10 @@ void main() {
   Employee employee = Employee();
   employee.salary();
 
+  // object of manager
+  Manager manager = Manager();
+  manager.salary();
+
 
 
 }
