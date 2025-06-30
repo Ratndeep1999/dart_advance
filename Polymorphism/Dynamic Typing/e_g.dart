@@ -13,3 +13,10 @@ class Bird {
   }
 }
 
+class Fish {
+  // method of swimming
+  void swim() {
+    print('Fish is Swimming...!');
+  }
+}
+
