@@ -3,3 +3,5 @@
 
 /// Instance variable
 
+// it is not static variable declare inside class but outside the method
+//
