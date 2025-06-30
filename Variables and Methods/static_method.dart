@@ -7,3 +7,12 @@
 // I can access static method without create object
 // use for utility functions or operations related to the class as whole
 // called using ClassName.method()
+
+// e.g of static method
+class SimpleInterest {
+
+  // static method
+  static double calculateInterest(double principalAmount, double rate, double timeYear) {
+    return principalAmount * rate * timeYear / 100 ;
+  }
+}
