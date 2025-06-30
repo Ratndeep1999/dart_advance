@@ -72,6 +72,8 @@ class Developer extends Employee {
 }
 
 
+// there is a class Animal with method sound(), and that sound() method override by two child class Dog and Cat
+
 
 
 void main() {
