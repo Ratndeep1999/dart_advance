@@ -80,6 +80,14 @@ class Avengers {
   }
 }
 
+class IronMan extends Avengers {
+  // method override
+  @override
+  void power() {
+    print('Tron Man have Tech power');
+  }
+}
+
 
 
 void main() {
