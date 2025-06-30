@@ -24,3 +24,6 @@ static int age = 23 ;
 
 // Access inside the class :
 // use " VariableName " inside class
+
+// Access outside the class :
+// use " ClassName.VariableName "
