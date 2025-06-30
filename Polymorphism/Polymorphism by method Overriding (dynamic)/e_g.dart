@@ -9,3 +9,24 @@ class Animal {
     print('Animal is eating..!');
   }
 }
+
+class Dog extends Animal {
+
+  // method override
+  @override
+  void eat () {
+    print('Dog is Eating...!');
+  }
+}
+
+
+void main() {
+
+  // object of animal class
+  Animal animal = Animal();
+  animal.eat();
+
+  // object of Dog class
+  Dog dog = Dog();
+  dog.eat();
+}
