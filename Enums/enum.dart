@@ -29,3 +29,37 @@ enum weekDays {
   friday,
   saturday
 }
+
+void main() {
+
+  var today = weekDays.sunday ;
+
+  // switch
+  switch (today) {
+
+    case weekDays.sunday:
+      print('Today is Sunday');
+      break ;
+    case weekDays.monday:
+      print('Today is Monday');
+      break ;
+    case weekDays.tuesday:
+      print('Today is Tuesday');
+      break ;
+    case weekDays.wednesday:
+      print('Today is Wednesday');
+      break ;
+    case weekDays.thursday:
+      print('Today is Thursday');
+      break ;
+    case weekDays.friday:
+      print('Today is Friday');
+      break ;
+    case weekDays.saturday:
+      print('Today is Saturday');
+      break ;
+    default : print('Wrong Input');
+  }
+
+
+}
