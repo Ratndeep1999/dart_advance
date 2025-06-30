@@ -20,3 +20,15 @@ class Fish {
   }
 }
 
+void main() {
+
+  // creature with dynamically type
+  dynamic creatures ;
+
+  creatures = Bird();
+  creatures.fly();
+
+  creatures = Fish();
+  creatures.swim();
+
+}
