@@ -30,3 +30,5 @@ void main() {
   Dog dog = Dog();
   dog.eat();
 }
+
+// [ Note : If i don't write @override, program still run. but it is good practice to write @override ]
