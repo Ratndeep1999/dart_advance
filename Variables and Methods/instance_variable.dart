@@ -6,3 +6,10 @@
 // it is not static variable declare inside class but outside any method
 // it belong to an instance (object) of class
 // means each object has its own copy of variable
+
+
+/// Characteristics
+// define inside class but outside any method
+// stores state / data specific to an object
+// can have access modifiers ( public or private )
+// initialized when an object is created, often with default or constructor
