@@ -45,6 +45,22 @@ class Employee {
 }
 
 
+// e.g of static values
+class Wife {
+  static String husbandName = 'Shubham' ;  // static variable
+  String wifeName ;
+  int marriageYear ;
+  int age ;
+
+  // constructor
+  Wife(this.wifeName, this.age, this.marriageYear);   // i left husbandName, it was static value
+
+  // method to display details
+  void display() {
+
+  }
+}
+
 
 
 void main() {
@@ -57,5 +73,6 @@ void main() {
 
   print('\n');
 
+  // objects of Students
 
 }
