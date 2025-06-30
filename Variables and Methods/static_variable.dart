@@ -42,5 +42,20 @@ class Employee {
   void numOfEmployee() {
     print('Total employee : $count');
   }
+}
+
+
+
+
+void main() {
+  // object of employee
+  Employee employee1 = Employee();
+  employee1.numOfEmployee();
+
+  Employee employee2 = Employee();
+  employee2.numOfEmployee();
+
+  print('\n');
+
 
 }
