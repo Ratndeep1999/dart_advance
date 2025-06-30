@@ -56,6 +56,20 @@ void main() {
   // object of Dog class
   Dog dog = Dog();
   dog.eat();
+
+
+  // object of car class
+  Car car = Car();
+  car.power();
+
+  // object of Honda class
+  Honda honda = Honda();
+  honda.power();
+
+  // object of Tesla class
+  Tesla tesla = Tesla();
+  tesla.power();
+
 }
 
 // [ Note : If i don't write @override, program still run. but it is good practice to write @override ]
