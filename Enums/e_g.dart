@@ -44,6 +44,19 @@ void main() {
 
   Person person3 = Person("David", 25, Gender.Other);
   person3.display();
+
+  // --------------------------------
+
+  // To print all values of enum
+  for(cousins cousin in cousins.values) {
+    print('Cousin : $cousin');
+  }
+
+  // Cousin : cousins.Sonali
+  // Cousin : cousins.Saniya
+  // Cousin : cousins.Ratndeep
+  // Cousin : cousins.Mogle
+  // Cousin : cousins.Shivani
 }
 
 
