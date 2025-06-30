@@ -23,6 +23,18 @@ class Person {
   }
 }
 
+
+// e.g of  print all values of enums
+enum cousins {
+  Sonali,
+  Saniya,
+  Ratndeep,
+  Mogle,
+  Shivani
+}
+
+
+
 void main() {
   Person person1 = Person('Sonali', 23, Gender.Female);
   person1.display();
