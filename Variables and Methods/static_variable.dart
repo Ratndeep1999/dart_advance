@@ -28,3 +28,19 @@ static int age = 23 ;
 
 // Access outside the class :
 // use " ClassName.VariableName "
+
+
+// e.g of static variable
+class Employee {
+  static int count = 0 ;  // static variable
+
+  Employee() {  // constructor
+    count++ ;
+  }
+
+  // method
+  void numOfEmployee() {
+    print('Total employee : $count');
+  }
+
+}
