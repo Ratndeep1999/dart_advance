@@ -4,4 +4,4 @@
 /// Instance variable
 
 // it is not static variable declare inside class but outside the method
-//
+// it belong to an instance (object) of class
