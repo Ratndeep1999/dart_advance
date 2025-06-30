@@ -38,6 +38,14 @@ class Honda extends Car {
   }
 }
 
+class Tesla extends Car {
+  // override method
+  @override
+  void power() {
+    print('Tesla gets power from Electricity');
+  }
+}
+
 
 void main() {
 
