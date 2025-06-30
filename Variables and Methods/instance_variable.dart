@@ -20,4 +20,12 @@ class Person {
   int age ;    // Instance variable
 
   Person(this.name, this.age);   // constructor
+
+}
+
+void main() {
+  // object
+  Person person = Person('Sonali', 23);
+  print('Name : ${person.name}');
+  print('Age : ${person.age}');
 }
