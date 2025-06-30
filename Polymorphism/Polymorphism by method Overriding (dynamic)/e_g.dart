@@ -72,7 +72,8 @@ class Developer extends Employee {
 }
 
 
-// there is a class Avenger with method power(), and that power() method override by three child class ironMan, thor and captainAmerica
+// there is a class Avenger with method power(), and that power() method
+// override by three child class ironMan, thor and captainAmerica
 class Avengers {
   // method of power
   void power() {
@@ -103,6 +104,8 @@ class CaptainAmerica extends Avengers {
     print('Captain America have the power of Super Soldier');
   }
 }
+
+
 
 void main() {
 
@@ -141,6 +144,24 @@ void main() {
   // object of developer
   Developer developer = Developer();
   developer.salary();
+
+  print('\n');
+
+  // object of avengers
+  Avengers avengers = Avengers();
+  avengers.power();
+
+  // object of ironman
+  IronMan ironMan = IronMan();
+  ironMan.power();
+
+  // object of thor
+  Thor thor = Thor();
+  thor.power();
+
+  // object of Captain america
+  CaptainAmerica captainAmerica = CaptainAmerica();
+  captainAmerica.power();
 
 }
 
