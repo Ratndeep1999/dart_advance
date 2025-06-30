@@ -25,10 +25,11 @@ void main() {
   // creature with dynamically type
   dynamic creatures ;
 
+  // creature can hold any type of value
   creatures = Bird();
-  creatures.fly();
+  creatures.fly();   // Bird is Flying..!
 
   creatures = Fish();
-  creatures.swim();
+  creatures.swim();  // Fish is Swimming...!
 
 }
