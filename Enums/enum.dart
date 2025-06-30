@@ -18,6 +18,9 @@ enum enumName {
   constantName3    // index value 2
 }
 
+/// access enums inside main
+// enumName.constantValue
+
 
 // e.g of enums
 enum weekDays {
@@ -60,6 +63,5 @@ void main() {
       break ;
     default : print('Wrong Input');
   }
-
 
 }
