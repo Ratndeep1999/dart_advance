@@ -13,6 +13,11 @@ class SimpleInterest {
 
   // static method
   static double calculateInterest(double principalAmount, double rate, double timeYear) {
-    return principalAmount * rate * timeYear / 100 ;
+    return (principalAmount * rate * timeYear) / 100 ;
   }
+}
+
+
+void main() {
+  print('Simple Interest : ${SimpleInterest.calculateInterest(25000, 5, 2)}');
 }
