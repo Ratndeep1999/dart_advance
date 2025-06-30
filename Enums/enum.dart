@@ -65,3 +65,9 @@ void main() {
   }
 
 }
+
+
+/// Advantage of enum
+// use to define set of named constants
+// makes code readable and maintainable
+// makes code more reusable and easier for developers
