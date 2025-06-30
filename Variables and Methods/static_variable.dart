@@ -76,6 +76,8 @@ void main() {
 
   print('\n');
 
-  // objects of Students
+  // objects of Wife's
+  Wife w1 = Wife('Sonali', 23, 2023);
+  w1.display();
 
 }
