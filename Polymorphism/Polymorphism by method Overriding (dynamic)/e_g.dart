@@ -47,7 +47,13 @@ class Tesla extends Car {
 }
 
 
-// there is a class Employee with salary() method, that method is overridden by child class manager and developer
+// there is a class Employee with salary() method, that method is overridden by child class manager and developer.
+class Employee {
+  // method of salary
+  void salary() {
+    print('Employees get the salary\'s');
+  }
+}
 
 
 
