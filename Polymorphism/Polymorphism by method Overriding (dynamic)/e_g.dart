@@ -47,6 +47,11 @@ class Tesla extends Car {
 }
 
 
+// there is a class Employee with salary() method, that method is overridden by child class manager and developer
+
+
+
+
 void main() {
 
   // object of animal class
