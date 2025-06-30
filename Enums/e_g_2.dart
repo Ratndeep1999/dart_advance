@@ -16,3 +16,17 @@ enum TrafficLight {
     print('Light : $name   Action : $action');
   }
 }
+
+
+void main() {
+  // to print single value
+  var light = TrafficLight.Green ;
+  light.display();
+
+  // to print all values
+  for (var lights in TrafficLight.values) {
+    lights.display();
+  }
+
+}
+
