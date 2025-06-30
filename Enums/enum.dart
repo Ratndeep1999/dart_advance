@@ -67,7 +67,13 @@ void main() {
 }
 
 
-/// Advantage of enum
+/// Advantage of enum :
 // use to define set of named constants
 // makes code readable and maintainable
 // makes code more reusable and easier for developers
+
+
+/// Characteristics of enum :
+// must to contain at least one value
+// declare outside the clas
+// use to store large number of constant values
