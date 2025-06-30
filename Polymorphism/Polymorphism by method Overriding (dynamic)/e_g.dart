@@ -72,13 +72,14 @@ class Developer extends Employee {
 }
 
 
-// there is a class Animal with method sound(), and that sound() method override by two child class Dog and Cat
-class Animals {
-  // method of sound
-  void sound() {
-    print('Animals Make sound');
+// there is a class Avenger with method power(), and that power() method override by three child class ironMan, thor and captainAmerica
+class Avengers {
+  // method of power
+  void power() {
+    print('Avengers have super powers');
   }
 }
+
 
 
 void main() {
