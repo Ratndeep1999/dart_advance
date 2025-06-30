@@ -30,7 +30,13 @@ class Car {
   }
 }
 
-
+class Honda extends Car {
+  // override method
+  @override
+  void power() {
+    print('Honda gets power from Petrol');
+  }
+}
 
 
 void main() {
