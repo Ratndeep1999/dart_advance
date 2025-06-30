@@ -20,6 +20,12 @@ class Dog extends Animal {
 }
 
 
+// there is a class named Car with method name Power().
+// power() method is overridden in two child classes named honda and tesla
+
+
+
+
 void main() {
 
   // object of animal class
@@ -32,3 +38,5 @@ void main() {
 }
 
 // [ Note : If i don't write @override, program still run. but it is good practice to write @override ]
+
+
