@@ -83,7 +83,7 @@ void main() {
   Wife w2 = Wife('Saniya', 22, 2024);
   w2.display();
 
-  Wife w3 = Wife('Dipali', 22, 2025);
+  Wife w3 = Wife('Soniya', 22, 2025);
   w3.display();
 
 }
