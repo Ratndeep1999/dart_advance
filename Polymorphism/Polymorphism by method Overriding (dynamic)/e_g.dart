@@ -108,7 +108,9 @@ void main() {
   Manager manager = Manager();
   manager.salary();
 
-
+  // object of developer
+  Developer developer = Developer();
+  developer.salary();
 
 }
 
