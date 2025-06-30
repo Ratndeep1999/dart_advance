@@ -96,6 +96,14 @@ class Thor extends Avengers {
   }
 }
 
+class CaptainAmerica extends Avengers {
+  // method override
+  @override
+  void power() {
+    print('Captain America have the power of Super Soldier');
+  }
+}
+
 void main() {
 
   // object of animal class
