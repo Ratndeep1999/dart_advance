@@ -80,4 +80,10 @@ void main() {
   Wife w1 = Wife('Sonali', 23, 2023);
   w1.display();
 
+  Wife w2 = Wife('Saniya', 22, 2024);
+  w2.display();
+
+  Wife w3 = Wife('Dipali', 22, 2025);
+  w3.display();
+
 }
