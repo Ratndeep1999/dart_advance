@@ -60,4 +60,4 @@ void main() {
 }
 
 
-
+// [ Note : enum is special kind of class to represent fixed number of constant values ]
