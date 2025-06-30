@@ -17,3 +17,15 @@ enum enumName {
   constantName2,   // index value 1
   constantName3    // index value 2
 }
+
+
+// e.g of enums
+enum weekDays {
+  sunday,
+  monday,
+  tuesday,
+  wednesday,
+  thursday,
+  friday,
+  saturday
+}
