@@ -23,5 +23,13 @@ class Person {
   }
 }
 
+void main() {
+  Person person1 = Person('Sonali', 23, Gender.Female);
+  person1.display();
+
+  Person person2 = Person('Ratndeep', 26, Gender.Male);
+  person2.display();
+}
+
 
 
