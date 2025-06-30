@@ -22,4 +22,5 @@ static String name = 'Sonali' ;
 static int age = 23 ;
 }
 
-
+// Access inside the class :
+// use " VariableName " inside class
