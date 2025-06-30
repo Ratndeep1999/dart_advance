@@ -20,7 +20,6 @@ class Person {
   int age ;    // Instance variable
 
   Person(this.name, this.age);   // constructor
-
 }
 
 void main() {
