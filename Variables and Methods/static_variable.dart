@@ -8,3 +8,6 @@
 // It is a variable that is shared by all instance of clas.
 // it is shared across all instance of class,
 // means there is only one copy of variable regardless of how many objects are created.
+
+// store data common to class, not specific to any instance.
+// Initialized only once when the class is loaded, not when object are created.
