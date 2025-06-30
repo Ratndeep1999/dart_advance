@@ -88,7 +88,13 @@ class IronMan extends Avengers {
   }
 }
 
-
+class Thor extends Avengers {
+  // override method
+  @override
+  void power() {
+    print('Thor have the power of Thunder');
+  }
+}
 
 void main() {
 
