@@ -29,6 +29,9 @@ void main() {
 
   Person person2 = Person('Ratndeep', 26, Gender.Male);
   person2.display();
+
+  Person person3 = Person("David", 25, Gender.Other);
+  person3.display();
 }
 
 
