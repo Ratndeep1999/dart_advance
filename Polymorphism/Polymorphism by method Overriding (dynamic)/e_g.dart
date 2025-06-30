@@ -55,10 +55,19 @@ class Employee {
   }
 }
 
-class Manager {
+class Manager extends Employee {
   // override method
+  @override
   void salary() {
-    print('Manager salary : 1000 \$');
+    print('Manager salary : \$1000');
+  }
+}
+
+class Developer extends Employee {
+  // method override
+  @override
+  void salary() {
+    print('Developer salary : \$1500');
   }
 }
 
