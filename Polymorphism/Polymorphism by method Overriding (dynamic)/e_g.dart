@@ -23,6 +23,13 @@ class Dog extends Animal {
 // there is a class named Car with method name Power().
 // power() method is overridden in two child classes named honda and tesla
 
+class Car {
+  // method
+  void power() {
+    print('Car gets power from Petrol');
+  }
+}
+
 
 
 
