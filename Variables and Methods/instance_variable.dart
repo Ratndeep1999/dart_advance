@@ -13,3 +13,11 @@
 // stores state / data specific to an object
 // can have access modifiers ( public or private )
 // initialized when an object is created, often with default or constructor
+
+// e.g
+class Person {
+  String name ;    // Instance variable
+  int age ;    // Instance variable
+
+  Person(this.name, this.age);   // constructor
+}
