@@ -57,6 +57,7 @@ void main() {
   Dog dog = Dog();
   dog.eat();
 
+  print('\n');
 
   // object of car class
   Car car = Car();
