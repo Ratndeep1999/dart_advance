@@ -25,3 +25,8 @@ class Person {
   }
 }
 
+void main() {
+
+  Person person = Person('Sonali', 23);
+  person.intro();
+}
