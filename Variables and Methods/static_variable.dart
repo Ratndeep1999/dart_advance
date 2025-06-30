@@ -14,4 +14,11 @@
 // Accessed using class name ( e.g ClassName.variable ).
 
 // Syntax :
+class ClassName {
+//  static _dataType _variableName ;
+
+// to initialize
+static String name = 'Sonali' ;
+static int age = 23 ;
+}
 
