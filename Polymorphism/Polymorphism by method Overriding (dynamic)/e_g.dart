@@ -98,6 +98,14 @@ void main() {
   Tesla tesla = Tesla();
   tesla.power();
 
+  print('\n');
+
+  // object of employee
+  Employee employee = Employee();
+  employee.salary();
+
+
+
 }
 
 // [ Note : If i don't write @override, program still run. but it is good practice to write @override ]
