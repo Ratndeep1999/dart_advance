@@ -3,6 +3,6 @@
 
 /// Instance variable
 
-// it is not static variable declare inside class but outside the method
+// it is not static variable declare inside class but outside any method
 // it belong to an instance (object) of class
 // means each object has its own copy of variable
