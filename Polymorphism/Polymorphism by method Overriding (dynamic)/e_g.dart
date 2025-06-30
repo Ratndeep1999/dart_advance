@@ -55,6 +55,13 @@ class Employee {
   }
 }
 
+class Manager {
+  // override method
+  void salary() {
+    print('Manager salary : 1000 \$');
+  }
+}
+
 
 
 
