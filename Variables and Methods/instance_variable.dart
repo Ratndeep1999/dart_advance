@@ -5,3 +5,4 @@
 
 // it is not static variable declare inside class but outside the method
 // it belong to an instance (object) of class
+// means each object has its own copy of variable
