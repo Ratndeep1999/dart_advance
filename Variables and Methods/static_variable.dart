@@ -11,3 +11,4 @@
 
 // store data common to class, not specific to any instance.
 // Initialized only once when the class is loaded, not when object are created.
+// Accessed using class name ( e.g ClassName.variable ).
