@@ -57,7 +57,10 @@ class Wife {
 
   // method to display details
   void display() {
-
+    print('Wife Name : $wifeName');
+    print('Age : $age');
+    print('Marriage Year : $marriageYear');
+    print('Husband Name : $husbandName\n');
   }
 }
 
