@@ -12,11 +12,21 @@ abstract class Tree {
 class BananaTree extends Tree {
   @override
   void flower() {
-    print('Banana tree have red flowers');
+    print('Banana tree have \'Red\' flowers');
   }
 
   @override
   void fruit() {
-    print('Banana tree have Banana fruits');
+    print('Banana tree have \'Banana\' fruits');
   }
+}
+
+
+
+void main() {
+
+  // object of Banana tree
+  Tree bananaTree = BananaTree();
+  bananaTree.flower();
+  bananaTree.fruit();
 }
