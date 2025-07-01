@@ -30,3 +30,6 @@
 // It can contain implemented or without implemented ( body less ) method.
 // A class that can not be instantiated.
 
+/// Abstract Method :
+// A method that do not have body.
+// Child class must need to implement abstract class methods
