@@ -30,5 +30,3 @@
 // It can contain implemented or without implemented ( body less ) method.
 // A class that can not be instantiated.
 
-/// Abstract Method :
-//
