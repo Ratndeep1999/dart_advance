@@ -40,3 +40,16 @@
 // We can access object of interface in another file ( file.dart ).
 // implement keyword is use to override Interface methods in Child class.
 // there is must to @override methods in child class If Implements Interface.
+
+
+/// Syntax :
+abstract class ClassName {
+  void method();  // body less method
+  void method2() {}  // concrete method with implementation
+}
+
+class ClassName2 extends ClassName {
+  @override
+  void method() {}  // must to implement abstract class method
+}
+
