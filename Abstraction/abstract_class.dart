@@ -22,3 +22,13 @@
 // declare class using " Abstract " keyword.
 // Use to define behavior/method of class that can be inherited by other classes.
 // It focus on hiding complex implementation logic of system and expose only needable coe logic.
+
+
+/// Key concepts of Abstraction :
+
+/// Abstract Class :
+// It can contain implemented or without implemented ( body less ) method.
+// A class that can not be instantiated.
+
+/// Abstract Method :
+//
