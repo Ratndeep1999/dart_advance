@@ -32,4 +32,11 @@
 
 /// Abstract Method :
 // A method that do not have body.
-// Child class must need to implement abstract class methods
+// Child class must need to implement abstract class methods.
+
+/// Interface :
+// Any class can act as interface, like multiple inheritance.
+// We can create object of Interface.
+// We can access object of interface in another file ( file.dart ).
+// implement keyword is use to override Interface methods in Child class.
+// there is must to @override methods in child class If Implements Interface.
