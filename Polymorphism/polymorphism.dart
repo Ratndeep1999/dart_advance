@@ -41,6 +41,9 @@
 // Dart is dynamically type language,
 // Allowing objects to be assigned to variables of different types, enabling polymorphic behavior.
 
+// 4. Interface :
+// A set of methods that a class must implement, without providing any implement details
+
 
 /// Types of Polymorphism
 // Compile_time polymorphism ( Static polymorphism )
