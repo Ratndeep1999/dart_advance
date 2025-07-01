@@ -114,7 +114,7 @@ void main() {
   animal.eat();
 
   // object of Dog class
-  Dog dog = Dog();
+  Animal dog = Dog();    // reference dog is Animal type
   dog.eat();
 
   print('\n');
@@ -124,11 +124,11 @@ void main() {
   car.power();
 
   // object of Honda class
-  Honda honda = Honda();
+  Car honda = Honda();
   honda.power();
 
   // object of Tesla class
-  Tesla tesla = Tesla();
+  Car tesla = Tesla();
   tesla.power();
 
   print('\n');
@@ -138,11 +138,11 @@ void main() {
   employee.salary();
 
   // object of manager
-  Manager manager = Manager();
+  Employee manager = Manager();
   manager.salary();
 
   // object of developer
-  Developer developer = Developer();
+  Employee developer = Developer();
   developer.salary();
 
   print('\n');
@@ -152,15 +152,15 @@ void main() {
   avengers.power();
 
   // object of ironman
-  IronMan ironMan = IronMan();
+  Avengers ironMan = IronMan();
   ironMan.power();
 
   // object of thor
-  Thor thor = Thor();
+  Avengers thor = Thor();
   thor.power();
 
   // object of Captain america
-  CaptainAmerica captainAmerica = CaptainAmerica();
+  Avengers captainAmerica = CaptainAmerica();
   captainAmerica.power();
 
 }
