@@ -44,7 +44,7 @@
 
 /// Syntax :
 abstract class ClassName {
-  void method();  // body less method
+  void method();  // body less method/ abstract method
   void method2() {}  // concrete method with implementation
 }
 
