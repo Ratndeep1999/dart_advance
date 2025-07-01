@@ -53,3 +53,6 @@ class ClassName2 extends ClassName {
   void method() {}  // must to implement abstract class method
 }
 
+/// In Short :
+// Abstract class is use to define behavior of class that is inherited by other classes.
+// abstract method define inside abstract class
