@@ -4,7 +4,7 @@
 
 /// Interface
 
-// use to achieve abstraction behaviour
+// Interface provide blueprints
 // implement keyword is must to use implement
 // use interface for class that implement interface
 // must to implement all methods and properties in interface
