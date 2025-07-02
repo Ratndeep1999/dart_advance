@@ -23,3 +23,19 @@
 // I can implement interface in another file
 // If class implement then must to implement methods means @overwrite
 // @overwrite means replacing functionality of method by implementing
+
+
+
+/// syntax :
+interface class ClassName {
+  void method() {}    // interface method
+}
+
+class Class1 extends ClassName {
+  // here optional to @override method
+}
+
+class Class2 implements ClassName {
+  @override
+  void method() {}   // here must to @override method
+}
