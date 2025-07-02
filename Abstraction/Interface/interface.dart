@@ -9,4 +9,4 @@
 // use interface for class that implement interface
 // must to implement all methods and properties in interface
 
-
+// interface means set of methods that a class must implement, without providing any implementation details
