@@ -53,7 +53,7 @@ class Rectangle extends Area {
 
   @override
   void display() {
-    print('Area of rectangle : ${this.area()}');
+    print('Area of rectangle : ${this.area()}');  // if i remove this then it calls abstract method area
   }
 }
 
