@@ -43,6 +43,11 @@ void main() {
   bananaTree.flower();
   bananaTree.fruit();
 
+  // object of orange tree
+  Tree orange = OrangeTree();
+  orange.flower();
+  orange.fruit();
+
   // -----------------------------------------------
 
 
