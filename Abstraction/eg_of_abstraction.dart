@@ -21,6 +21,19 @@ class BananaTree extends Tree {
   }
 }
 
+class OrangeTree extends Tree {
+  @override
+  void flower() {
+    print('Orange tree do have flowers');
+  }
+
+  @override
+  void fruit() {
+    print('Orange tree have \'Orange\' fruits');
+  }
+
+}
+
 
 
 void main() {
