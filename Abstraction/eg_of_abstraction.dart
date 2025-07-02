@@ -48,13 +48,12 @@ class Rectangle extends Area {
   int? width ;
 
   @override
-  int area() {
-    return length! * width! ;
-  }
+  int area() => length! * width! ;
+
 
   @override
   void display() {
-    print('Area of rectangle : $area()');
+    print('Area of rectangle : ${this.area()}');
   }
 }
 
@@ -68,7 +67,7 @@ class Circle extends Area {
 
   @override
   void display() {
-    print('Area of Circle : $area()');
+    print('Area of Circle : ${this.area()}');
   }
 }
 
@@ -85,6 +84,7 @@ void main() {
   orange.fruit();
 
   // -----------------------------------------------
+  print('\n');
 
   // object of rectangle
   // Area rectangle = Rectangle()   .... if i do this then i can not access members of Rectangle class
@@ -93,5 +93,8 @@ void main() {
   rectangle.width = 2 ;
   rectangle.display();
 
+  Circle circle = Circle();
+  circle.radius = 5 ;
+  circle.display();
 
 }
