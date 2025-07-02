@@ -15,3 +15,13 @@ abstract class Person {
   // abstract method
   void qualification();
 }
+
+class Men extends Person {
+  List<String> education ;
+
+  Men(this.education, String name, int ge) : super('Ratndeep', 26);
+
+  void qualification() {
+    print('My Qualification is $education');
+  }
+}
