@@ -18,3 +18,8 @@
 // If class extend then optional to @override method
 // means, when we @override any method then we are adding extra functionality to that method
 
+/// implement :
+// polymorphism work here
+// I can implement interface in another file
+// If class implement then must to implement methods means @overwrite
+// @overwrite means replacing functionality of method by implementing
