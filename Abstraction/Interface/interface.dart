@@ -2,7 +2,7 @@
 // learn abstraction and inheritance before Interface
 
 
-/// Interface
+/// Interface   ( dart hes no interface keyword )
 
 // Interface provide blueprints
 // little bit part similar to abstract class
