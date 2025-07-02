@@ -21,7 +21,7 @@
 /// implement :
 // polymorphism work here
 // I can implement interface in another file
-// If class implement then must to implement methods means @overwrite
+// If class implement then must to @override methods means @overwrite
 // @overwrite means replacing functionality of method by implementing
 
 
