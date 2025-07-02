@@ -19,7 +19,7 @@ abstract class Person {
 class Men extends Person {
   List<String> education ;
 
-  Men(this.education, String name, int ge) : super('Ratndeep', 26);
+  Men(this.education) : super('Ratndeep', 26);  // I can do this also
 
   void qualification() {
     print('My Qualification is $education');
@@ -34,4 +34,12 @@ class Women extends Person {
   void qualification() {
     print('My Qualification is $education');
   }
+}
+
+
+void main() {
+
+  // object of Men
+  Men ratndeep = Men(['B.A, M.A, LLB']);
+  ratndeep.intro();
 }
