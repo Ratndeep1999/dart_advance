@@ -25,3 +25,13 @@ class Men extends Person {
     print('My Qualification is $education');
   }
 }
+
+class Women extends Person {
+  List<String> education ;
+
+  Women(this.education, String name, int age) : super(name, age);
+
+  void qualification() {
+    print('My Qualification is $education');
+  }
+}
