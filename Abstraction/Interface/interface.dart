@@ -5,9 +5,7 @@
 /// Interface
 
 // Interface provide blueprints
-// most of the part of interface similar to abstraction
-// implement keyword is must to use implement
-// use interface for class that implement interface
-// must to implement all methods and properties in interface
-
-// interface means set of methods that a class must implement, without providing any implementation details
+// little bit part similar to abstract class
+// We can use 'extend' or 'implement' keyword, both have different work in interface
+//
+//
