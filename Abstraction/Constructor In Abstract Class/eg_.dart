@@ -44,6 +44,8 @@ void main() {
   ratndeep.intro();
   ratndeep.qualification();
 
+  print('\n');
+
   // object of Women
   Women sonali = Women(['bsc.CS', 'MCA', 'Projects'], 'Sonali', 23);
   sonali.intro();
