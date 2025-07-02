@@ -8,7 +8,7 @@
 // little bit part similar to abstract class
 // here, must to define body of method
 // interface allow to create object
-//
+// using interface we can implement multiple classes
 
 /// 'extend' and 'implement' both behave differently in case of interface
 
