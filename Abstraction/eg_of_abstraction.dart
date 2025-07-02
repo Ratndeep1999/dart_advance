@@ -38,8 +38,7 @@ class OrangeTree extends Tree {
 // e.g of abstract class to find area of rectangle and circle
 
 abstract class Area {
-
-  // area method
+  // both are abstract method
   void area();
   void display();
 }
