@@ -58,6 +58,20 @@ class Rectangle extends Area {
   }
 }
 
+class Circle extends Area {
+  double? radius ;
+
+  @override
+  double area() {
+    return 3.14 * radius! * radius! ;
+  }
+
+  @override
+  void display() {
+    print('Area of Circle : $area()');
+  }
+}
+
 void main() {
 
   // object of Banana tree
