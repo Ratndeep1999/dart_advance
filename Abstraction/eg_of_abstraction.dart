@@ -86,5 +86,12 @@ void main() {
 
   // -----------------------------------------------
 
+  // object of rectangle
+  // Area rectangle = Rectangle()   .... if i do this then i can not access members of Rectangle class
+  Rectangle rectangle = Rectangle();
+  rectangle.length = 5 ;
+  rectangle.width = 2 ;
+  rectangle.display();
+
 
 }
