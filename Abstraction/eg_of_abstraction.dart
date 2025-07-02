@@ -35,6 +35,29 @@ class OrangeTree extends Tree {
 }
 
 
+// e.g of abstract class to find area of rectangle and circle
+
+abstract class Area {
+
+  // area method
+  void area();
+  void display();
+}
+
+class Rectangle extends Area {
+  int? length ;
+  int? width ;
+
+  @override
+  int area() {
+    return length! * width! ;
+  }
+
+  @override
+  void display() {
+    print('Area of rectangle : $area()');
+  }
+}
 
 void main() {
 
