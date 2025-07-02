@@ -40,6 +40,12 @@ class Women extends Person {
 void main() {
 
   // object of Men
-  Men ratndeep = Men(['B.A, M.A, LLB']);
+  Men ratndeep = Men(['B.A', 'M.A', 'LLB']);
   ratndeep.intro();
+  ratndeep.qualification();
+
+  // object of Women
+  Women sonali = Women(['bsc.CS', 'MCA', 'Projects'], 'Sonali', 23);
+  sonali.intro();
+  sonali.qualification();
 }
