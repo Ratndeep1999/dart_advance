@@ -66,6 +66,10 @@ void main() {
   Bike bike = Bike();
   bike.moving(litter: 1, km: 22);
 
+  // object of Car
+  Car car = Car();
+  car.moving(litter: 1, km: 8.2);
+
 
 
 }
