@@ -62,16 +62,6 @@ void main() {
   Bicycle bicycle = Bicycle();
   bicycle.moving(km: 1, litter: 0);  // it calls parent class method
 
-  // object of Bike
-  Bike bike = Bike();
-  bike.moving(litter: 1, km: 22);
 
-  // object of Car
-  Car car = Car();
-  car.moving(litter: 1, km: 8.2);
-
-  // object of Truck
-  Truck truck = Truck();
-  truck.moving(litter: 1, km: 5.8);
 
 }
