@@ -9,3 +9,10 @@ import 'eg_of_interface.dart';
 // [ Note : we cant access Interface using extend keyword in another file ]
 
 
+// class Aeroplane
+class Aeroplane implements Vehicle {
+  @override
+  void moving({double? km, int? litter}) {
+    // TODO: implement moving
+  }
+}
