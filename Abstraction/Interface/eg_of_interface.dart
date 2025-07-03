@@ -7,7 +7,7 @@ interface class Vehicle {
 
   // method which calculate km/ltr
   void moving({double? km, int? litter}) {
-    print('Vehicle travel\'s $km in $litter of Petrol.');
+    print('Vehicle travel\'s $km in $litter of Petrol.\n');
   }
 
   // abstract method give compile time error
@@ -20,13 +20,12 @@ interface class Vehicle {
 // If I am using implement then, must to implement otherwise it gives compile time error
 // class Bicycle implements Vehicle { }
 
-
 // class Bike
 class Bike implements Vehicle {
 
   @override
   void moving({double? km, int? litter}) {
-    print('Bike travel\'s $km in $litter of Petrol.');
+    print('Bike travel\'s $km in $litter of Petrol.\n');
   }
 }
 
@@ -35,7 +34,7 @@ class Car implements Vehicle {
 
   @override
   void moving({double? km, int? litter}) {
-    print('Car travel\'s $km in $litter of Petrol.');
+    print('Car travel\'s $km in $litter of Petrol.\n');
   }
 }
 
@@ -44,6 +43,6 @@ class Truck implements Vehicle {
 
   @override
   void moving({double? km, int? litter}) {
-    print('Truck travel\'s $km in $litter of Petrol.');
+    print('Truck travel\'s $km in $litter of Petrol.\n');
   }
 }
