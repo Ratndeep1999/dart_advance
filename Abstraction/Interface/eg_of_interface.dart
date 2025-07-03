@@ -20,3 +20,13 @@ interface class Vehicle {
 // If I am using implement then, must to implement otherwise it gives compile time error
 // class Bicycle implements Vehicle { }
 
+
+// class Bike
+class Bike implements Vehicle {
+
+  @override
+  void moving({double? km, int? litter}) {
+    print('Bike travel\'s $km in $litter of Petrol.');
+  }
+}
+
