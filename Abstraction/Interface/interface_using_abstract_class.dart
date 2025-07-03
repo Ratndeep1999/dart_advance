@@ -32,3 +32,19 @@ class Eagle implements Bird {
     print('$name can not swim');   // must to implement
   }
 }
+
+class Swan implements Bird {
+  @override
+  String? name;
+
+  @override
+  void canFly() {
+    // TODO: implement canFly
+  }
+
+  @override
+  void canSwim() {
+    // TODO: implement canSwim
+  }
+
+}
