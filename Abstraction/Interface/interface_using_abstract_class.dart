@@ -29,7 +29,7 @@ class Eagle implements Bird {
 
   @override
   void canSwim() {
-    print('$name can not swim');   // must to implement
+    print('$name can not swim \n');   // must to implement
   }
 }
 
@@ -44,7 +44,7 @@ class Swan extends Bird {
 
   @override
   void canSwim() {
-    print('$name can Swim...');   // this is not mandatory to implement
+    print('$name can Swim... \n');   // this is not mandatory to implement
   }
   // [ Note : If i don't @override and call using object then it return nothing means abstract method don't have body ]
 }
