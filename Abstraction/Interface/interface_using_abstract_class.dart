@@ -76,5 +76,7 @@ void main() {
   Swan swan = Swan();
   swan.name = 'Swan' ;
 
-
+  // object of Swan
+  KingFisher kingFisher = KingFisher();
+  kingFisher.name = 'KingFisher' ;
 }
