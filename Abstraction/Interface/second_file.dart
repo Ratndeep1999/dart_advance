@@ -17,3 +17,13 @@ class Aeroplane implements Vehicle {
     print('Aeroplane travel\'s $km KM in $litter ltr of Petrol.\n');
   }
 }
+
+
+
+void main() {
+
+  // object of Aeroplane
+  Aeroplane aeroplane = Aeroplane();
+  aeroplane.moving(litter: 100, km: 2);
+
+}
