@@ -18,3 +18,17 @@ abstract class Bird {
 
 }
 
+class Eagle implements Bird {
+  @override
+  String? name;   // must to implement if given in parent class
+
+  @override
+  void canFly() {
+    print('$name can fly...');   // must to implement
+  }
+
+  @override
+  void canSwim() {
+    print('$name can not swim');   // must to implement
+  }
+}
