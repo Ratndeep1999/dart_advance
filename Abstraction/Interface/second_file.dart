@@ -4,3 +4,7 @@
 
 import 'eg_of_interface.dart';
 
+// class Ship
+// class Ship extends Vehicle { }
+
+
