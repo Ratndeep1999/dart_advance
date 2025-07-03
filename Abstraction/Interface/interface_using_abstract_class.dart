@@ -33,18 +33,17 @@ class Eagle implements Bird {
   }
 }
 
-class Swan implements Bird {
-  @override
-  String? name;
+class Swan extends Bird {
+  // @override
+  // String? name;    // I don't need this because i am not implement, i am extend this class
 
   @override
   void canFly() {
-    // TODO: implement canFly
+    print('$name can Fly...');   // this is not mandatory to implement
   }
 
   @override
   void canSwim() {
-    // TODO: implement canSwim
+    print('$name can Swim...');   // this is not mandatory to implement
   }
-
 }
