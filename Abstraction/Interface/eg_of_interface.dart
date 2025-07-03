@@ -39,3 +39,11 @@ class Car implements Vehicle {
   }
 }
 
+// class Truck
+class Truck implements Vehicle {
+
+  @override
+  void moving({double? km, int? litter}) {
+    print('Truck travel\'s $km in $litter of Petrol.');
+  }
+}
