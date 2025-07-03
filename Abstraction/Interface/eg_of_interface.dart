@@ -27,7 +27,8 @@ class Bike extends Vehicle {
 
   @override
   void moving({double? km, int? litter}) {
-    super.moving();
+    super.moving(km: km, litter: litter);  // it get values of bike object, otherwise give default values from here
+
     print('Bike travel\'s $km KM in $litter ltr of Petrol.\n');
   }
 }
@@ -56,10 +57,13 @@ void main() {
 
   // I can create object of interface but not abstract class
   Vehicle vehicle = Vehicle();
-  vehicle.moving(litter: 1, km: 22);
+  vehicle.moving(litter: 1, km: 50);
 
   // object of Bicycle
   Bicycle bicycle = Bicycle();
   bicycle.moving(km: 1, litter: 0);
 
+  // object of Bike
+  Bike bike = Bike();
+  bike.moving(litter: 1, km: 22);
 }
