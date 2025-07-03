@@ -71,18 +71,6 @@ class Circle extends Area {
   }
 }
 
-class Square extends Area {
-  int? side ;
-
-  @override
-  int area() => side! * side! ;
-
-  @override
-  void display() {
-    print('Area of Square : ${this.area()}');
-  }
-}
-
 
 void main() {
 
