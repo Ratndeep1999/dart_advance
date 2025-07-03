@@ -101,4 +101,6 @@ void main() {
 }
 
 
-//
+//  [ Note : here, If i want to use object type 'abstract class' then i can access
+//  the method but not access and initialize the properties, if i want to initialize then
+//  i have to remove abstract class of object type or define the constructor in abstract clas ]
