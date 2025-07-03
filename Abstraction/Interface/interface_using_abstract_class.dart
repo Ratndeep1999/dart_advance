@@ -46,4 +46,5 @@ class Swan extends Bird {
   void canSwim() {
     print('$name can Swim...');   // this is not mandatory to implement
   }
+  // [ Note : If i don't @override and call using object then it return nothing means abstract method don't have body ]
 }
