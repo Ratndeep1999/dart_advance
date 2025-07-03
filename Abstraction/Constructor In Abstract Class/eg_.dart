@@ -40,7 +40,7 @@ class Women extends Person {
 void main() {
 
   // object of Men
-  Men ratndeep = Men(['B.A', 'M.A', 'LLB']);
+  Person ratndeep = Men(['B.A', 'M.A', 'LLB']);  // here i can access the abstract class properties because of constructor
   ratndeep.intro();
   ratndeep.qualification();
 
