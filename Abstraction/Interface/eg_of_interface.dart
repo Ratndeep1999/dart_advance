@@ -10,5 +10,6 @@ interface class Vehicle {
     print('Vehicle travel\'s $km in $litter of Petrol.');
   }
 
-
+  // abstract method give compile time error
+  // void move();
 }
