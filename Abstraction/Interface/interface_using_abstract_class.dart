@@ -72,5 +72,9 @@ void main() {
   Eagle eagle = Eagle();
   eagle.name = 'Eagle' ;
 
+  // object of Swan
+  Swan swan = Swan();
+  swan.name = 'Swan' ;
+
 
 }
