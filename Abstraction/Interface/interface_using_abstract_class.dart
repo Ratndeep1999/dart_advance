@@ -48,3 +48,18 @@ class Swan extends Bird {
   }
   // [ Note : If i don't @override and call using object then it return nothing means abstract method don't have body ]
 }
+
+class KingFisher implements Bird {
+  @override
+  String? name;   // must to implement if given in parent class
+
+  @override
+  void canFly() {
+    print('$name can fly...');   // must to implement
+  }
+
+  @override
+  void canSwim() {
+    print('$name can swim');   // must to implement
+  }
+}
