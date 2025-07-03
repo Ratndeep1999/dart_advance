@@ -60,6 +60,17 @@ class KingFisher implements Bird {
 
   @override
   void canSwim() {
-    print('$name can swim');   // must to implement
+    print('$name can swim \n');   // must to implement
   }
+}
+
+
+
+void main() {
+
+  // object of Eagle
+  Eagle eagle = Eagle();
+  eagle.name = 'Eagle' ;
+
+
 }
