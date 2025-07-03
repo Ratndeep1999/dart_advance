@@ -71,12 +71,19 @@ void main() {
   // object of Eagle
   Eagle eagle = Eagle();
   eagle.name = 'Eagle' ;
+  eagle.canFly();
+  eagle.canSwim();
 
   // object of Swan
   Swan swan = Swan();
   swan.name = 'Swan' ;
+  swan.canFly();
+  swan.canSwim();
 
   // object of Swan
   KingFisher kingFisher = KingFisher();
   kingFisher.name = 'KingFisher' ;
+  kingFisher.canFly();
+  kingFisher.canSwim();
+
 }
