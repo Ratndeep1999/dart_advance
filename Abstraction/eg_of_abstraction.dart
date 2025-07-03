@@ -75,7 +75,7 @@ class Circle extends Area {
 void main() {
 
   // object of Banana tree
-  Tree bananaTree = BananaTree();
+  Tree bananaTree = BananaTree();  // here, i am using polymorphism because i do not access and initialize properties of abstract class
   bananaTree.flower();
   bananaTree.fruit();
 
@@ -88,7 +88,7 @@ void main() {
   print('\n');
 
   // object of rectangle
-  // Area rectangle = Rectangle()   .... if i do this then i can not access members of Rectangle class
+  // Area rectangle = Rectangle()   .... if i do this then i can not access and initialize properties of Rectangle class for that i need constructor
   Rectangle rectangle = Rectangle();
   rectangle.length = 5 ;
   rectangle.width = 2 ;
@@ -99,3 +99,6 @@ void main() {
   circle.display();
 
 }
+
+
+//
