@@ -17,3 +17,6 @@ interface class Vehicle {
 // if I am using extend then it is not mandatory to @override and it not give me compile time error
  class Bicycle extends Vehicle {}
 
+// If I am using implement then, must to implement otherwise it gives compile time error
+// class Bicycle implements Vehicle { }
+
