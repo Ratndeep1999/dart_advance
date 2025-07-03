@@ -13,3 +13,7 @@ interface class Vehicle {
   // abstract method give compile time error
   // void move();
 }
+
+// if I am using extend then it is not mandatory to @override and it not give me compile time error
+ class Bicycle extends Vehicle {}
+
