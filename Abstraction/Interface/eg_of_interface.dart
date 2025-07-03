@@ -7,7 +7,7 @@ interface class Vehicle {
 
   // method which calculate km/ltr
   void moving({double? km, int? litter}) {
-    print('Vehicle travel\'s $km in $litter of Petrol.\n');
+    print('Vehicle travel\'s $km KM in $litter ltr of Petrol.\n');
   }
 
   // abstract method give compile time error
@@ -15,17 +15,20 @@ interface class Vehicle {
 }
 
 // if I am using extend then it is not mandatory to @override and it not give me compile time error
- class Bicycle extends Vehicle {}
+ class Bicycle extends Vehicle {
+  // I can call moving() method, which is not define here
+ }
 
 // If I am using implement then, must to implement otherwise it gives compile time error
 // class Bicycle implements Vehicle { }
 
 // class Bike
-class Bike implements Vehicle {
+class Bike extends Vehicle {
 
   @override
   void moving({double? km, int? litter}) {
-    print('Bike travel\'s $km in $litter of Petrol.\n');
+    super.moving();
+    print('Bike travel\'s $km KM in $litter ltr of Petrol.\n');
   }
 }
 
@@ -34,7 +37,7 @@ class Car implements Vehicle {
 
   @override
   void moving({double? km, int? litter}) {
-    print('Car travel\'s $km in $litter of Petrol.\n');
+    print('Car travel\'s $km KM in $litter ltr of Petrol.\n');
   }
 }
 
@@ -43,6 +46,20 @@ class Truck implements Vehicle {
 
   @override
   void moving({double? km, int? litter}) {
-    print('Truck travel\'s $km in $litter of Petrol.\n');
+    print('Truck travel\'s $km KM in $litter ltr of Petrol.\n');
   }
+}
+
+
+void main() {
+  print('\n');
+
+  // I can create object of interface but not abstract class
+  Vehicle vehicle = Vehicle();
+  vehicle.moving(litter: 1, km: 22);
+
+  // object of Bicycle
+  Bicycle bicycle = Bicycle();
+  bicycle.moving(km: 1, litter: 0);
+
 }
