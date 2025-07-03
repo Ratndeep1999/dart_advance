@@ -58,5 +58,4 @@ class ClassName2 extends ClassName {
 // abstract method define inside abstract class
 
 
-
 // [ Note : we can extend the abstract class with abstract method in another files ]
