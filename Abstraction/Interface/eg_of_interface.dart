@@ -28,7 +28,6 @@ class Bike extends Vehicle {
   @override
   void moving({double? km, int? litter}) {
     super.moving(km: km, litter: litter);  // it get values of bike object, otherwise give default values from here
-
     print('Bike travel\'s $km KM in $litter ltr of Petrol.\n');
   }
 }
@@ -61,9 +60,18 @@ void main() {
 
   // object of Bicycle
   Bicycle bicycle = Bicycle();
-  bicycle.moving(km: 1, litter: 0);
+  bicycle.moving(km: 1, litter: 0);  // it calls parent class method
 
   // object of Bike
   Bike bike = Bike();
   bike.moving(litter: 1, km: 22);
+
+  // object of Car
+  Car car = Car();
+  car.moving(litter: 1, km: 8.2);
+
+  // object of Truck
+  Truck truck = Truck();
+  truck.moving(litter: 1, km: 5.8);
+
 }
