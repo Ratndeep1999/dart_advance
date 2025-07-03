@@ -39,3 +39,6 @@ class Class2 implements ClassName {
   @override
   void method() {}   // here must to @override method
 }
+
+
+// [ Note :  ]
