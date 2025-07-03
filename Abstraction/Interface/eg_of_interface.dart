@@ -70,6 +70,8 @@ void main() {
   Car car = Car();
   car.moving(litter: 1, km: 8.2);
 
-
+  // object of Truck
+  Truck truck = Truck();
+  truck.moving(litter: 1, km: 5.8);
 
 }
