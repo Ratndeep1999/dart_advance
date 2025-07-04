@@ -5,7 +5,7 @@
 /// Multiple inheritance using interface : Inherit from more than one interface class
 
 
-// e.g of interface using multiple inheritance like.. mixins
+// e.g of interface using multiple inheritance with properties  like.. mixins
 
 // Parent class one
 interface class Square {
