@@ -9,34 +9,34 @@ class Fan {
   void turnOn() {}
   void turnOff() {}
   void low() {}
-  void mid() {}
+  void medium() {}
   void high() {}
 }
 
 class TableFan implements Fan {
-  @override
-  void high() {
-    // TODO: implement high
-  }
 
   @override
-  void low() {
-    // TODO: implement low
-  }
-
-  @override
-  void mid() {
-    // TODO: implement mid
+  void turnOn() {
+    print('TableFan get Turn-On');
   }
 
   @override
   void turnOff() {
-    // TODO: implement turnOff
+    print('TableFan get turn-OFF');
   }
 
   @override
-  void turnOn() {
-    // TODO: implement turnOn
+  void low() {
+    print('TableFan speed is low');
   }
 
+  @override
+  void medium() {
+    print('TableFan speed is medium');
+  }
+
+  @override
+  void high() {
+    print('TableFan speed is High');
+  }
 }
