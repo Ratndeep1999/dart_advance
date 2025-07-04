@@ -20,7 +20,7 @@ interface class Cube {
 }
 
 class Result implements Square, Cube {
-  int? value ;
+  final int? value = 5 ;
 
   @override
   int findSquare() {
@@ -41,7 +41,7 @@ void main() {
 
   // object of class result
   Result result = Result();
-  result.value = 5 ;
+  // result.value = 5 ;
   result.displayResult();
 
 }
