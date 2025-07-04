@@ -37,6 +37,10 @@ class Result implements Square, Cube {
   }
 }
 
+
+
+
+
 void main() {
 
   // object of class result
