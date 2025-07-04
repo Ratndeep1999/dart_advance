@@ -31,5 +31,9 @@ class Result implements Square, Cube {
   int findCube() {
     return value! * value! * value! ;
   }
+
+  void display() {
+    print('Square and Cube of value $value : Square - ${this.findSquare()}, Cube - ${this.findCube()}');
+  }
 }
 
