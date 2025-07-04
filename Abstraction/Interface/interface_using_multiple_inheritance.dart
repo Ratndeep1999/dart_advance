@@ -8,5 +8,11 @@
 // e.g of interface using multiple inheritance like.. mixins
 
 
+interface class Square {
+
+  void findSquare() {}
+}
+
+
 
 
