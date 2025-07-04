@@ -49,5 +49,12 @@ void main() {
   fan.turnOn();
   fan.turnOff();
 
-  // object of Tablele fan
+  // object of TableFan
+  TableFan tableFan = TableFan();
+  tableFan.turnOn();
+  tableFan.low();
+  tableFan.medium();
+  tableFan.high();
+  tableFan.turnOff();
+
 }
