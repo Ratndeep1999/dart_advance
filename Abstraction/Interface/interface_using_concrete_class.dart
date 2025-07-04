@@ -17,12 +17,12 @@ class TableFan implements Fan {
 
   @override
   void turnOn() {
-    print('TableFan get Turn-On');
+    print('TableFan get Turn-On..!');
   }
 
   @override
   void turnOff() {
-    print('TableFan get turn-OFF');
+    print('TableFan get turn-OFF..!');
   }
 
   @override
