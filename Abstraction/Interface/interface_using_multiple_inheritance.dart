@@ -19,5 +19,17 @@ interface class Cube {
   void findCube() { }
 }
 
+class Result implements Square, Cube {
+  int? value ;
 
+  @override
+  int findSquare() {
+    return value! * value! ;
+  }
+
+  @override
+  int findCube() {
+    return value! * value! * value! ;
+  }
+}
 
