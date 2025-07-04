@@ -40,3 +40,14 @@ class TableFan implements Fan {
     print('TableFan speed is High');
   }
 }
+
+
+void main() {
+
+  // object of concrete class
+  Fan fan = Fan();
+  fan.turnOn();
+  fan.turnOff();
+
+  // object of Tablele fan
+}
