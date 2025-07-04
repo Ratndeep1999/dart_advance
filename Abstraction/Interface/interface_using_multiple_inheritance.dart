@@ -32,8 +32,16 @@ class Result implements Square, Cube {
     return value! * value! * value! ;
   }
 
-  void display() {
+  void displayResult() {
     print('Square and Cube of value $value : Square - ${this.findSquare()}, Cube - ${this.findCube()}');
   }
 }
 
+void main() {
+
+  // object of class result
+  Result result = Result();
+  result.value = 5 ;
+  result.displayResult();
+
+}
