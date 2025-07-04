@@ -7,12 +7,17 @@
 
 // e.g of interface using multiple inheritance like.. mixins
 
-
+// Parent class one
 interface class Square {
 
-  void findSquare() {}
+  void findSquare() { }
 }
 
+// Parent class two
+interface class Cube {
+
+  void findCube() { }
+}
 
 
 
