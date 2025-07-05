@@ -19,3 +19,17 @@ class Tesla with Electric {
     print('Tesla manufactures only Electric car\'s');
   }
 }
+
+// class Tata
+class Tata with Petrol, Electric {
+  @override
+  void electric() {
+    // TODO: implement electric
+  }
+
+  @override
+  void petrol() {
+    // TODO: implement petrol
+  }
+
+}
