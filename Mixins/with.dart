@@ -8,3 +8,6 @@ mixin Petrol {
   void petrol();
 }
 
+mixin Electric {
+  void electric();
+}
