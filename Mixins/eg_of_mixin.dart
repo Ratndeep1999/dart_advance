@@ -50,3 +50,15 @@ class Human with CanSwim {
     print('$name can Swim');
   }
 }
+
+void main() {
+
+  // object of CanFly
+  // CanFly canFly = CanFly();   .... this give compile time error
+
+  // object of KingFisher
+  KingFisher kingFisher = KingFisher();
+  kingFisher.name = 'KingFisher' ;
+  kingFisher.canFly();
+  kingFisher.canSwim();
+}
