@@ -39,4 +39,10 @@ void main() {
   // object of Tesla
   Tesla tesla = Tesla();
   tesla.electric();
+
+  // object of Tata
+  Tata tata = Tata();
+  tata.petrol();
+  tata.electric();
+
 }
