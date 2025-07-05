@@ -41,6 +41,7 @@ class Swan with CanFly, CanSwim {
   }
 }
 
+// class Human with mixin CanSwim
 class Human with CanSwim {
   String? name ;
 
@@ -48,5 +49,4 @@ class Human with CanSwim {
   void canSwim() {
     print('$name can Swim');
   }
-
 }
