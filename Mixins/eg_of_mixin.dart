@@ -11,5 +11,15 @@ mixin CanSwim {
   void canSwim();
 }
 
+class KingFisher with CanFly, CanSwim {
+  @override
+  void canFly() {
+    // TODO: implement canFly
+  }
 
+  @override
+  void canSwim() {
+    // TODO: implement canSwim
+  }
 
+}
