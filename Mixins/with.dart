@@ -32,3 +32,11 @@ class Tata with Petrol, Electric {
     print('TATA manufactures Petrol car\'s');
   }
 }
+
+
+void main() {
+
+  // object of Tesla
+  Tesla tesla = Tesla();
+  tesla.electric();
+}
