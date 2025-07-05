@@ -11,6 +11,9 @@
 // Mixin can not be initialize, means it not have constructor
 // Mixin can't extend
 
+// We can use instance and static variable and methods, also abstract method inside mixin
+// We can be use one or more mixins in a class
+
 
 /// Syntax :
 mixin ClassName1 {
