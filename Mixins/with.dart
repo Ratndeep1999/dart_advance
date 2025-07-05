@@ -24,12 +24,11 @@ class Tesla with Electric {
 class Tata with Petrol, Electric {
   @override
   void electric() {
-    // TODO: implement electric
+    print('TATA manufactures Electric car\'s');
   }
 
   @override
   void petrol() {
-    // TODO: implement petrol
+    print('TATA manufactures Petrol car\'s');
   }
-
 }
