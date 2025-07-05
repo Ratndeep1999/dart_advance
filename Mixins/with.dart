@@ -11,3 +11,11 @@ mixin Petrol {
 mixin Electric {
   void electric();
 }
+
+// class Tesla
+class Tesla with Electric {
+
+  void electric(){
+    print('Tesla manufactures only Electric car\'s');
+  }
+}
