@@ -40,3 +40,13 @@ class Swan with CanFly, CanSwim {
     print('$name can Swim');
   }
 }
+
+class Human with CanSwim {
+  String? name ;
+
+  @override
+  void canSwim() {
+    print('$name can Swim');
+  }
+
+}
