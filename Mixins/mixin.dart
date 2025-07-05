@@ -13,6 +13,7 @@
 
 // We can use instance and static variable and methods, also abstract method inside mixin
 // We can be use one or more mixins in a class
+// This is must to @override abstract method only when using mixin
 
 
 /// Syntax :
