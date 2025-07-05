@@ -68,5 +68,8 @@ void main() {
   swan.canFly();
   swan.canSwim();
 
-  //
+  // object of Human
+  Human human = Human();
+  human.name = 'Humans' ;
+  human.canSwim();
 }
