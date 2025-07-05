@@ -12,14 +12,15 @@ mixin CanSwim {
 }
 
 class KingFisher with CanFly, CanSwim {
+  String? name ;
+
   @override
   void canFly() {
-    // TODO: implement canFly
+    print('$name can Fly.');
   }
 
   @override
   void canSwim() {
-    // TODO: implement canSwim
+    print('$name can Swim');
   }
-
 }
