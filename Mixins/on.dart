@@ -4,6 +4,7 @@
 
 // eg of on keyword
 
+// abstract class Person
 abstract class Person {
   String name ;
   int age ;
@@ -11,4 +12,9 @@ abstract class Person {
   Person(this.name, this.age);
 
   void work();
+}
+
+//
+mixin Work on Person {
+
 }
