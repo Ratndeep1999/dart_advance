@@ -22,7 +22,7 @@ class KingFisher with CanFly, CanSwim {
 
   @override
   void canSwim() {
-    print('$name can Swim');
+    print('$name can Swim\n');
   }
 }
 
@@ -37,7 +37,7 @@ class Swan with CanFly, CanSwim {
 
   @override
   void canSwim() {
-    print('$name can Swim');
+    print('$name can Swim\n');
   }
 }
 
