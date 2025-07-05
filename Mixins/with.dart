@@ -16,7 +16,7 @@ mixin Electric {
 class Tesla with Electric {
 
   void electric(){
-    print('Tesla manufactures only Electric car\'s');
+    print('Tesla manufactures only Electric car\'s\n');
   }
 }
 
