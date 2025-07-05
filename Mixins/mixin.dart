@@ -10,3 +10,17 @@
 // It is use to share code between multiple classes
 // Mixin can not be initialize, means it not have constructor
 // Mixin can't extend
+
+
+/// Syntax :
+mixin ClassName1 {
+  // code
+}
+
+mixin ClassName2 {
+  // code
+}
+
+class ClassName3 with ClassName1, ClassName2 {
+  // code
+}
