@@ -16,11 +16,21 @@ abstract class Person {
 
 // mixin Work on Person abstract class
 mixin Work on Person {
-  void work() => print('$name and his $age but still work at Factory');
+  void work() => print('$name still work in Factory at age $age');
 }
 
 // class Men extends properties of Person and with mixin Work
 class Men extends Person with Work {
   // constructor
   Men(String name, int age) : super(name, age);
+}
+
+
+
+void main() {
+
+  // object of Men
+  Men men = Men('Suresh', 84);
+  men.work();
+
 }
