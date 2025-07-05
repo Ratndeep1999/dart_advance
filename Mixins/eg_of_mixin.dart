@@ -61,4 +61,12 @@ void main() {
   kingFisher.name = 'KingFisher' ;
   kingFisher.canFly();
   kingFisher.canSwim();
+
+  // object of Swan
+  Swan swan = Swan();
+  swan.name = 'Swan' ;
+  swan.canFly();
+  swan.canSwim();
+
+  //
 }
