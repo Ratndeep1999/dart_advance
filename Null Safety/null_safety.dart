@@ -35,8 +35,7 @@ void main() {
   print(age3);  // 26
 
   // test using ! not operator
-  int myAge ;
-  myAge = age3! ;   // it tells that the age variable is not null
+  int myAge = age3! ;   // it tells that the age variable is not null
   print(myAge); // 26
 
 
