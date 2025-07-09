@@ -40,6 +40,7 @@ void main() {
 
 
   /// How to define null value in list, set and map
-  //
-
+  // using list
+  // List<String> sequence = ['One', 'Two', null, 'Three', 'Four'];   .....this give compile time error
+  List<String?> sequence = ['One', 'Two', null, 'Three', 'Four'];
 }
