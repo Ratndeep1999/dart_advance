@@ -38,5 +38,10 @@ void main() {
 
   Vehicle vehicle1 = Vehicle.bus ;
   vehicle1.details();
+
+  print('\n');
+
+  Vehicle bicycle = Vehicle.bicycle ;
+  bicycle.details();
 }
 
