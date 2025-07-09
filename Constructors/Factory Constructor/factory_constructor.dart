@@ -23,3 +23,10 @@ class ClassName {
   // factory ClassName.namedConstructor () { }
 }
 
+
+/// Rules to define factory constructor
+// it must to return an instance of class or subclass.
+// inside factory constructor can't use 'this' keyword.
+// it can't access instance member of clas.
+// it can be Named or Unnamed
+
