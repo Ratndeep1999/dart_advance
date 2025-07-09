@@ -13,3 +13,12 @@
 // Factory constructor :
 // The constructor which return cached instance of class.
 // it allow to give validation to constructor when we create it
+// This is good practice to create Generative constructor with factory constructor at same class
+
+
+/// Syntax ;
+class ClassName {
+  // factory ClasName() { }
+  // factory ClassName.namedConstructor () { }
+}
+
