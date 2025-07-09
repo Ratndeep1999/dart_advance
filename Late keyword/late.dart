@@ -7,8 +7,11 @@
 // It allow to define nonnullable variable at the time of define
 // but must be initialise before run.
 
-/// Key Pont :
+// It is also known as Lazy variable.
 
+/// Key Pont :
+// help to define nonnullable field which is not initialized at the movement
+// of declaration.
 
 
 // eg to define late variable
