@@ -12,3 +12,9 @@
 // int age = 20 ;    // .... this ok
 // int age ;    ......now this give me error age is null here
 int? age ;   //  .....now the age can be null or int
+
+
+/// How to use Null Variables
+// 'If' statement to check variable is null or not.
+// '!' operator which return null if variable is null.
+//  '??' operator help to assign default value if variable is null
