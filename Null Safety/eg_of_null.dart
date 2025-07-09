@@ -20,7 +20,7 @@ class Female extends Person {
   void details() {
     print('Name : ${name = name ?? 'Unknown'}');
     print('Hobbies : ${hobbies = hobbies ?? 'Not Given'}');
-    print('Gender : ${gender = gender ?? 'Others'}\n');
+    print('Gender : ${gender = gender ?? 'Female'}\n');
   }
 }
 
