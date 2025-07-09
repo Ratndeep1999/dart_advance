@@ -30,8 +30,8 @@ void main() {
     print('Age is Null');
   }
 
-  // test using ?? operator
-  int age3 = age ?? 26 ;  // it means, if age is not null then value of age assign if null then 50assign
+  // test using ?? operator to assign default value
+  int age3 = age ?? 26 ;  // it means, if age is not null then value of age assign if null then 50 default value assign
   print(age3);  // 26
 
   // test using ! not operator
