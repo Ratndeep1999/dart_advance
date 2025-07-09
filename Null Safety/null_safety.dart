@@ -39,4 +39,7 @@ void main() {
   print(myAge); // 26
 
 
+  /// How to define null value in list, set and map
+  //
+
 }
