@@ -31,6 +31,11 @@ enum CompanyType {
 
   // constructor
   const CompanyType(this.text);
+
+  // method to display the company type
+  void display() {
+    print("Company Type : $text");
+  }
 }
 
 
