@@ -40,7 +40,14 @@ void main() {
 
 
   /// How to define null value in list, set and map
-  // using list
+
+  // using List
   // List<String> sequence = ['One', 'Two', null, 'Three', 'Four'];   .....this give compile time error
   List<String?> sequence = ['One', 'Two', null, 'Three', 'Four'];
+
+  // using Set
+  Set<String?> colors = {'Red', 'Blue', 'Green', 'Black', null, 'Yellow'};    // ? means colors can be a null values
+
+  // using Map
+
 }
