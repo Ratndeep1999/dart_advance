@@ -54,5 +54,15 @@ void main() {
   // Light : Yellow   Action : Go Slow
   // Light : Red   Action : Stop
 
+
+  print('\n');
+  // --------------------------------------
+
+  CompanyType companyType = CompanyType.limitedLiabilityCompany ;
+
+  companyType.display();  // Company Type : Limited Liability Company
+
+  print("${companyType.text}");  // Limited Liability Company
+
 }
 
