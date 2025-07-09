@@ -21,4 +21,29 @@ late String myName ;  // if i remove late then it give me error
 void main() {
   myName = 'Ratndeep' ;
   print(myName);
+
+  print("\n");
+  // --------------------------------
+
+  // Object of Person class
+  Person person = Person('Sonali');
+  print(person.name);
+  print(person.running);
+
+}
+
+
+
+class Person {
+  String name ;
+  late String running = heRunning();   // i assign this latter
+
+  Person(this.name){
+    print('Constructor called first');
+  }
+
+  String heRunning() {
+    print('$name is Running ');
+    return "Now, $name come back to Home" ;
+  }
 }
