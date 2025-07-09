@@ -20,7 +20,17 @@ enum TrafficLight {
 
 
 // CompanyType enum
+enum CompanyType {
+  soloProprietorship('Solo Proprietorship'),
+  partnership('Partnership'),
+  corporation('Corporation'),
+  limitedLiabilityCompany('Limited Liability Company');
 
+  final String text ;
+
+  // constructor
+  const CompanyType(this.text);
+}
 
 
 void main() {
