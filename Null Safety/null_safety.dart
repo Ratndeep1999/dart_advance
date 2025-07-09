@@ -81,3 +81,10 @@ class Car {
 
   Car(this.color, this.gear);
 }
+
+
+/// Key points
+// null and empty both are different
+// null means no values
+// null is a typ ein dart
+// it introduce in dart 2.12
