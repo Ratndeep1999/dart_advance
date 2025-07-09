@@ -1,6 +1,8 @@
 
 
 
+import '../Polymorphism/Polymorphism by method Overriding (dynamic)/e_g.dart';
+
 /// Null Safety :
 // It helps to avoid null errors in dart programing language.
 // We define null using '?' symbol after type declaration.
@@ -65,6 +67,17 @@ void main() {
   void myName (String? name) {
     print('My name is $name');
   }
-  myName(null);   // My name is null
+  myName(null);   // My name is null             ... function invoke
 
+  // object of Car
+  // Car car = Car(null, 5);     ...... error
+
+}
+
+/// Pass null value through Object
+class Car {
+  String color ;
+  int gear ;
+
+  Car(this.color, this.gear);
 }
