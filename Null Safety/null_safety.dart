@@ -61,4 +61,10 @@ void main() {
   print(details);
 
 
+  /// Define null values in function parameters
+  void myName (String? name) {
+    print('My name is $name');
+  }
+  myName(null);   // My name is null
+
 }
