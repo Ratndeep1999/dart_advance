@@ -2,6 +2,7 @@
 
 // e.g of enum with constructor
 
+// TrafficLight Enum
 enum TrafficLight {
   Green('Go'),
   Yellow('Go Slow'),
@@ -16,6 +17,10 @@ enum TrafficLight {
     print('Light : $name   Action : $action');
   }
 }
+
+
+// CompanyType enum
+
 
 
 void main() {
