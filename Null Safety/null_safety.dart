@@ -16,7 +16,7 @@
 
 /// How to use Null Variables
 // 'If' statement to check variable is null or not.
-// '!' operator which return null if variable is null.
+// '!' operator which say that variable is not null.
 //  '??' operator help to assign default value if variable is null.
 
 // eg of this statements
@@ -29,6 +29,15 @@ void main() {
   if (age == null) {
     print('Age is Null');
   }
+
+  // test using ?? operator
+  int age3 = age ?? 26 ;  // it means, if age is not null then value of age assign if null then 50assign
+  print(age3);  // 26
+
+  // test using ! not operator
+  int myAge ;
+  myAge = age3! ;   // it tells that the age variable is not null
+  print(myAge); // 26
 
 
 }
