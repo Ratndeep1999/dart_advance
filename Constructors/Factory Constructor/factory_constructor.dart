@@ -16,6 +16,7 @@
 // This is good practice to create Generative constructor with factory constructor at same class
 
 
+
 /// Syntax ;
 class ClassName {
   // factory ClasName() { }
