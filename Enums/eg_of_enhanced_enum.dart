@@ -27,3 +27,16 @@ enum Vehicle {
   }
 
 }
+
+
+void main() {
+
+  // here, no need to create object to access
+  print(Vehicle.car.name);   // car
+  print(Vehicle.bus.passengers); // 50
+  print('\n');
+
+  Vehicle vehicle1 = Vehicle.bus ;
+  vehicle1.details();
+}
+
