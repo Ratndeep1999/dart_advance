@@ -49,5 +49,11 @@ void main() {
   Set<String?> colors = {'Red', 'Blue', 'Green', 'Black', null, 'Yellow'};    // ? means colors can be a null values
 
   // using Map
+  Map <String, dynamic> details = {   // dynamic means it can also be a null value
+    "name" : 'Ratndeep',
+    "Age" : 26,
+    "Address" : null,
+    'D.O.B' : 06 / 02 / 1999
+  };
 
 }
