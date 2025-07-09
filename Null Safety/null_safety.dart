@@ -44,16 +44,21 @@ void main() {
   // using List
   // List<String> sequence = ['One', 'Two', null, 'Three', 'Four'];   .....this give compile time error
   List<String?> sequence = ['One', 'Two', null, 'Three', 'Four'];
+  print(sequence);
 
   // using Set
   Set<String?> colors = {'Red', 'Blue', 'Green', 'Black', null, 'Yellow'};    // ? means colors can be a null values
+  print(colors);
 
   // using Map
   Map <String, dynamic> details = {   // dynamic means it can also be a null value
     "name" : 'Ratndeep',
     "Age" : 26,
     "Address" : null,
-    'D.O.B' : 06 / 02 / 1999
+    'D.O.B' : "06 feb 1999",
+    "isMarried" : false
   };
+  print(details);
+
 
 }
