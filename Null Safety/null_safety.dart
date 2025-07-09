@@ -8,3 +8,7 @@
 // This feature is known as sound null check.
 
 
+/// How to define null
+// int age = 20 ;    // .... this ok
+// int age ;    ......now this give me error age is null here
+int? age ;   //  .....now the age can be null or int
