@@ -16,7 +16,9 @@
 
 // eg to define late variable
 
+late String myName ;  // if i remove late then it give me error
+
 void main() {
-
-
+  myName = 'Ratndeep' ;
+  print(myName);
 }
