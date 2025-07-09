@@ -7,5 +7,13 @@
 // It allow to define nonnullable variable at the time of define
 // but must be initialise before run.
 
-// [ Note : It tell compiler that developer don't have any value
-//  right now but it must be use before program run ]
+/// Key Pont :
+
+
+
+// eg to define late variable
+
+void main() {
+
+
+}
