@@ -7,7 +7,7 @@
 // It allow to define nonnullable variable at the time of define
 // but must be initialise before run.
 
-// It is also known as Lazy variable.
+// It is also known as Lazy variable or lazy initialization.
 
 /// Key Pont :
 // help to define nonnullable field which is not initialized at the movement
