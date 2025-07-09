@@ -26,6 +26,7 @@ enum CompanyType {
   corporation('Corporation'),
   limitedLiabilityCompany('Limited Liability Company');
 
+  // new variable for text if variable final means constructor is constant
   final String text ;
 
   // constructor
