@@ -40,8 +40,12 @@ void main() {
 
   // another way
   print('Content : ${test.readAsStringSync()}');
-
+  print('\n');
   // ----------------------------
 
+  // Get the File information
+
+  print('Path : ${test.path}');
+  print('File location : ${test.absolute.path}');
 
 }
