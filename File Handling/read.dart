@@ -86,4 +86,11 @@ void main() {
   // Ratndeep, ratndeep@gmail.com, 8551830830
   // Sonali, sonali@gmail.com, 1234567890
 
+  print('\n');
+  print('--------------------------------');
+
+  // to print specific data only
+  String specificData = test.readAsStringSync().substring(0,32);
+  print(specificData);
+
 }
