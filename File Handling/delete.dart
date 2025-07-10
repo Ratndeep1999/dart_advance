@@ -7,4 +7,5 @@
 
 // existsSync() : this method call to check the file is exists or not.
 
-//
+/// Syntax :
+// variableName.method()
