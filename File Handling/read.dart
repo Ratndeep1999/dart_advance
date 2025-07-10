@@ -11,3 +11,11 @@
 
 /// Read :
 // It allow to read file using various methods.
+
+// Method :
+// readAsStringSync() : use to read contents of file im format of string.
+
+// lengthSync : use to know the size of file.
+
+// lastModifiedSync() : use to know last modified date and time.
+
