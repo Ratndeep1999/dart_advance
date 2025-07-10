@@ -55,6 +55,14 @@ void main() {
   }
 
 
-  // eg of general type to specific type
+  // eg of non nullable type string
+  int age ;
 
+  if ( 12 < DateTime.now().hour ) {
+    age = 0 ;
+  } else {
+    age = 18 ;
+  }
+
+  print(age);
 }
