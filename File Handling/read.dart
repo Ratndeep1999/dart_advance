@@ -19,3 +19,6 @@
 
 // lastModifiedSync() : use to know last modified date and time.
 
+// Path :
+// variableName.path : use to know the path or the file name.
+
