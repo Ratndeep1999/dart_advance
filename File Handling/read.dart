@@ -44,8 +44,9 @@ void main() {
   // ----------------------------
 
   // Get the File information
-
-  print('Path : ${test.path}');
-  print('File location : ${test.absolute.path}');
-
+  print('$test File Information');
+  print('File Name : ${test.path}');
+  print('File Path : ${test.absolute.path}');
+  print('File Size : ${test.lengthSync()} bytes');
+  print('Last Modified : ${test.lastModifiedSync()}');
 }
