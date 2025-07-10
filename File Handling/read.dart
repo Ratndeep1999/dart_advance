@@ -22,3 +22,5 @@
 // Path :
 // variableName.path : use to know the path or the file name.
 
+// Absolute path :
+// variableName.absolute.path : use to know the exact address of the file.
