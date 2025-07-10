@@ -61,7 +61,22 @@ void main() {
   // -----------------------------------
 
   //
-  File test2 = File('C:\Users\Ratndeep\Downloads\dart_advance\File Handling\test.txt');
-  String usingPath = test2.readAsStringSync();
-  print(usingPath);
+  // File test2 = File('C:\Users\Ratndeep\Downloads\dart_advance\File Handling\test.txt');
+  // String usingPath = test2.readAsStringSync();
+  // print(usingPath);
+
+  // --------------------------------------
+
+  // Read CSV File Data
+  File csvFile = File('csv_file_data.txt');
+  String data = csvFile.readAsStringSync();
+  // split content
+  List<String> separatedData = data.split('\n');
+
+  print('---------------------');
+  // print data in csv format
+  for(var data in separatedData ) {
+    print('$data');
+  }
+
 }
