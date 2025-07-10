@@ -1,5 +1,7 @@
 
 
+import 'dart:io';
+
 /// Delete :
 
 // Methods
@@ -9,3 +11,15 @@
 
 /// Syntax :
 // variableName.method()
+
+void main() {
+
+  // open file
+  File delete = File('delete.txt');
+
+  // file delete
+  delete.deleteSync();
+  print("$delete File deleted");
+
+  // ---------------------------------
+}
