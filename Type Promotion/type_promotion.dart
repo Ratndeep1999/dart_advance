@@ -34,11 +34,24 @@ void main() {
   Person person = Person(name: 'Ratndeep', address: Address(city: 'Wardha'));
 
   // If i am using this kind of format then it is not good
-  if (person.address != null ) {
-    print('City : ${person.address!.city}');
-    print('State : ${person.address?.state}');
-    print('Street : ${person.address?.street}');
+  // if (person.address != null ) {
+  //   print('City : ${person.address!.city}');
+  //   print('State : ${person.address?.state}');
+  //   print('Street : ${person.address?.street}');
+  // } else {
+  //   print('Data is null');
+  // }
+
+
+  // This is type promotion
+  var p = person.address ;
+
+  if ( p != null ) {
+    print('City : ${p.city}');
+    print('State : ${p.state}');
+    print('Street : ${p.street}');
   } else {
-    print('Data is null');
+    print('Details is null');
   }
+
 }
