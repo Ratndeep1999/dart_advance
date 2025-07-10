@@ -79,4 +79,11 @@ void main() {
     print('$data');
   }
 
+  // output :
+  // ---------------------
+  //
+  // Name, Email, Phone
+  // Ratndeep, ratndeep@gmail.com, 8551830830
+  // Sonali, sonali@gmail.com, 1234567890
+
 }
