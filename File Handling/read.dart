@@ -10,4 +10,4 @@
 
 
 /// Read :
-//
+// It allow to read file using various methods.
