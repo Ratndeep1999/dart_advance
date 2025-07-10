@@ -49,4 +49,13 @@ void main() {
   print('File Path : ${test.absolute.path}');
   print('File Size : ${test.lengthSync()} bytes');
   print('Last Modified : ${test.lastModifiedSync()}');
+
+  // output :
+  // File: 'test.txt' File Information
+  // File Name : test.txt
+  // File Path : C:\Users\Ratndeep\Downloads\dart_advance\File Handling\test.txt
+  // File Size : 50 bytes
+  // Last Modified : 2025-07-10 18:06:52.000
+
+
 }
