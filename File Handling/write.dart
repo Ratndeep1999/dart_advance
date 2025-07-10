@@ -9,6 +9,8 @@ import 'dart:io';
 // Method :
 // writeAsStringSync(' content ') : use to write inside file / replace previous data.
 
+// writeAsStringSync(' content ', mode: FileMode.append )
+// this method use to write new content to previous content in given file
 
 
 void main() {
@@ -19,6 +21,13 @@ void main() {
   writeFile.writeAsString('Hi, I am Ratndeep\nI love to Read, Trade, and Travelling');
   // print content if write again then update it
   print('Content : ${writeFile.readAsStringSync()}');
+
+
+  print('--------------------------');
+  print('\n');
+
+  // add new content to previous content
+
 
 }
 
