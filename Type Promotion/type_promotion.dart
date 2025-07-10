@@ -43,7 +43,7 @@ void main() {
   // }
 
 
-  // This is type promotion
+  // This is nullable type to non nullable type promotion
   var p = person.address ;
 
   if ( p != null ) {
@@ -53,5 +53,8 @@ void main() {
   } else {
     print('Details is null');
   }
+
+
+  // eg of general type to specific type
 
 }
