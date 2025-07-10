@@ -30,3 +30,5 @@ class ClassName {
 // it can't access instance member of clas.
 // it can be Named or Unnamed
 
+
+// without factory constructor how the program works
