@@ -1,4 +1,6 @@
 
+import 'dart:io';
+
 /// File Handling : It allow to read, write and delete the file using method in programing language.
 
 
@@ -24,3 +26,22 @@
 
 // Absolute path :
 // variableName.absolute.path : use to know the exact address of the file.
+
+
+void main() {
+
+  // open or store to variable
+  File test = File('test.txt');
+
+  // method to read file content
+  String content = test.readAsStringSync();
+  print(content);
+  print('\n');
+
+  // another way
+  print('Content : ${test.readAsStringSync()}');
+
+  // ----------------------------
+
+
+}
