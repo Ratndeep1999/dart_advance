@@ -15,11 +15,20 @@ import 'dart:io';
 void main() {
 
   // open file
-  File delete = File('delete.txt');
+  File myFile = File('delete.txt');
 
   // file delete
-  delete.deleteSync();
-  print("$delete File deleted");
+  myFile.deleteSync();
+  print("$myFile File deleted");
 
   // ---------------------------------
+
+  // to check file exist
+  if(myFile.existsSync()) {
+
+    myFile.deleteSync();   // to delete the existence file
+    print('$myFile File Deleted');     // File: 'delete.txt' File deleted
+  } else {
+    print('$myFile File Not Exists....');     // File: 'delete.txt' File Not Exists....
+  }
 }
