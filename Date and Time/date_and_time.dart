@@ -29,7 +29,8 @@ void main() {
   // to get current Minutes
   print("Minutes : ${dateTime.minute}");   // here i can avoid .toString(), its already inside string
 
-
+  // to get current Seconds
+  print("Seconds : ${dateTime.second}");   // Seconds : 27
 
 }
 
