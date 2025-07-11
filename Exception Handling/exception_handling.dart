@@ -40,4 +40,11 @@ void main() {
   // Without try and catch
   print(a ~/ b);
 
+  // With try and catch
+  try {
+    print(a ~/ b);  // it return in_build exception which is throw to catch block
+  }
+  catch (e) {   // this block catch the exception
+    print(e);   // this statement prints exception in console
+  }
 }
