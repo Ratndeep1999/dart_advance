@@ -11,6 +11,7 @@ void main() {
   DateTime myTimelineInDateTime = DateTime.parse(myTimelineInString);   // converted string to DateTime type
 
   // my Birthday
+  print("Birth Year : ${myTimelineInDateTime.year}");   // Birth Year : 1999
 
 
 }
