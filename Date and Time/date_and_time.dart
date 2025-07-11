@@ -14,6 +14,10 @@ void main() {
   // to get current year :
   print("Year : " + DateTime.now().year.toString());   // Year : 2025
 
+  // to get current month
+  print("Month : ${DateTime.now().month}");   // Month : 7
+
+
 
 }
 
