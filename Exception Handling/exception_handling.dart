@@ -1,5 +1,7 @@
 
 
+import 'dart:math';
+
 /// Exception Handling :
 
 // It's an error that occurs at runtime during program execution.
@@ -22,7 +24,7 @@
 
 // try {
 //   // Code
-// } catch (ex) {
+// } catch (e) {
 //   // exception
 // }
 // finally {
@@ -30,3 +32,12 @@
 // }
 
 
+void main() {
+
+  int a = 0 ;
+  int b = 10 ;
+
+  // Without try and catch
+  print(a ~/ b);
+
+}
