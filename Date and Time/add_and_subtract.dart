@@ -17,6 +17,9 @@ void main() {
   print("Tomorrow Day : ${tomorrow.day}");
   // Tomorrow Day : 12
 
-
+  // subtracting 1 day to print yesterday
+  DateTime yesterday = today.subtract(Duration(days: 1));
+  print("Yesterday Day : ${yesterday.day} ");
+  // Yesterday Day : 10
 
 }
