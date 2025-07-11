@@ -7,3 +7,11 @@
 // It is good habit to handle the exception to save program from crashing.
 // To save the program from crashing we need to catch the exception.
 
+
+/// Syntax :
+
+// try {
+//   // Code
+// } catch (ex) {
+//   // exception
+// }
