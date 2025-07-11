@@ -1,0 +1,9 @@
+
+
+Duration                         Description
+inDays                           Convert duration in days.
+inHours                          Convert duration in hours.
+inMinutes                        Convert duration in minutes.
+inSeconds                        Convert duration in seconds.
+inMilliseconds                   Convert duration in milli seconds.
+inMicroseconds                   Convert duration in micro seconds.
