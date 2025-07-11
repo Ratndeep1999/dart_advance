@@ -7,3 +7,11 @@
 // isAtSameMovementAs(dateTime) : it returns bool values
 
 
+void main() {
+
+  // today
+  DateTime today = DateTime.now();
+
+
+
+}
