@@ -20,6 +20,12 @@ void main() {
   // to get current day
   print("Day : ${DateTime.now().day}");   // Day : 11
 
+  // Now I am assigning DateTime.now()
+  DateTime dateTime = DateTime.now();   // object of dateTime
+
+  // to get current Hour
+  print("Hour : " + dateTime.hour.toString());   // Hour : 17
+
 
 
 }
