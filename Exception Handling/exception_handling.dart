@@ -38,13 +38,27 @@ void main() {
   int b = 10 ;
 
   // Without try and catch
-  print(a ~/ b);
+  // print(b ~/ a);
 
   // With try and catch
   try {
-    print(a ~/ b);  // it return in_build exception which is throw to catch block
+    print(b ~/ a);  // it return in_build exception which is throw to catch block
   }
   catch (e) {   // this block catch the exception
     print(e);   // this statement prints exception in console
   }
+
+
+  // eg of try catch with final
+  try  {
+    print(b ~/ a) ;
+  }
+  catch (e) {
+    print('$e') ;  // i can also use throw and Exception();
+  }
+  finally {
+    print("It always executes at last in any condition");
+  }
+
+
 }
