@@ -12,9 +12,11 @@ void main() {
   // Current date and time
   DateTime today = DateTime.now();
 
-  // adding i day to print tomorrow
+  // adding 1 day to print tomorrow
   DateTime tomorrow = today.add(Duration(days: 1));
-  print("Tomorrow Day : ${tomorrow.day}");  // Tomorrow Day : 12
+  print("Tomorrow Day : ${tomorrow.day}");
+  // Tomorrow Day : 12
+
 
 
 }
