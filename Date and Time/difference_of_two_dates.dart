@@ -21,5 +21,10 @@ void main() {
   print("Completed Microseconds : ${myDuration.inMicroseconds}");
 
 
-
+  // Completed Days Till Now : 9652
+  // Completed Hours : 231666
+  // Completed Minutes : 13900017
+  // Completed Seconds : 834001038
+  // Completed Milliseconds : 834001038082
+  // Completed Microseconds : 834001038082157
 }
