@@ -15,7 +15,7 @@ import 'dart:io';  // library to import features
 // It allow to read file using various methods.
 
 // Method :
-// readAsStringSync() : use to read contents of file im format of string.
+// readAsStringSync() : use to read contents of file in format of string.
 
 // lengthSync : use to know the size of file.
 
