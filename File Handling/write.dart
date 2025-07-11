@@ -26,8 +26,9 @@ void main() {
   print('--------------------------');
   print('\n');
 
-  // add new content to previous content
-
+  // add new content to previous content in file
+  writeFile.writeAsString('\nThis is new content.', mode: FileMode.append,);
+  print(writeFile.readAsStringSync());
 
 }
 
