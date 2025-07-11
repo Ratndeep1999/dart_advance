@@ -15,6 +15,8 @@ void main() {
 
   print("Completed Days Till Now : ${myDuration.inDays}");
   print("Completed Hours : ${myDuration.inHours}");
+  print("Completed Minutes : "+ myDuration.inMinutes.toString()) ;
+
 
 
 
