@@ -9,6 +9,8 @@
 
 void main() {
   // To get current date and time :
+  String currentDateAndTime = DateTime.now().toString();
+  print(currentDateAndTime);
   print(DateTime.now());   // 2025-07-11 17:36:18.082049
 
   // to get current year :
