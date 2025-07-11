@@ -26,6 +26,9 @@ void main() {
   // to get current Hour
   print("Hour : " + dateTime.hour.toString());   // Hour : 17
 
+  // to get current Minutes
+  print("Minutes : ${dateTime.minute}");   // here i can avoid .toString(), its already inside string
+
 
 
 }
