@@ -17,6 +17,9 @@ void main() {
   // to get current month
   print("Month : ${DateTime.now().month}");   // Month : 7
 
+  // to get current day
+  print("Day : ${DateTime.now().day}");   // Day : 11
+
 
 
 }
