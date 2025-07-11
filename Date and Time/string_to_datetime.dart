@@ -10,10 +10,13 @@ void main() {
   String myTimelineInString = "1999-02-06" ;   // store my string timeline to DateTime
   DateTime myTimelineInDateTime = DateTime.parse(myTimelineInString);   // converted string to DateTime type
 
-  // my Birthday
-  print("Birth Year : ${myTimelineInDateTime.year}");   // Birth Year : 1999
-  print("Birth Month : ${myTimelineInDateTime.month}");  // Birth Month : 2
-  print("Birth Day : " + myTimelineInDateTime.day.toString());  // Birth Day : 6
+  // My Birthday
+  print("Birth Year : ${myTimelineInDateTime.year}");
+  print("Birth Month : ${myTimelineInDateTime.month}");
+  print("Birth Day : " + myTimelineInDateTime.day.toString());
 
+  // Birth Year : 1999
+  // Birth Month : 2
+  // Birth Day : 6
 
 }
