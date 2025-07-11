@@ -54,10 +54,14 @@ void main() {
     print(b ~/ a) ;
   }
   catch (e) {
-    print('$e') ;  // i can also use throw and Exception();
+    print('$e') ;  // i can also use Exception();
   }
   finally {
     print("It always executes at last in any condition");
   }
+
+
+  // eg of throwing exception with throw keyword
+
 
 }
