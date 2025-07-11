@@ -18,7 +18,7 @@ void main() {
   print("Completed Minutes : "+ myDuration.inMinutes.toString()) ;
   print("Completed Seconds : ${myDuration.inSeconds}");
   print("Completed Milliseconds : ${myDuration.inMilliseconds}");
-
+  print("Completed Microseconds : ${myDuration.inMicroseconds}");
 
 
 
