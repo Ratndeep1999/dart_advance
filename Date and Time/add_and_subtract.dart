@@ -6,3 +6,15 @@
 // Methods :
 // add(Duration(days: __))
 // subtract(Duration(days: __))
+
+void main() {
+
+  // Current date and time
+  DateTime today = DateTime.now();
+
+  // adding i day to print tomorrow
+  DateTime tomorrow = today.add(Duration(days: 1));
+  print("Tomorrow Day : ${tomorrow.day}");  // Tomorrow Day : 12
+
+
+}
