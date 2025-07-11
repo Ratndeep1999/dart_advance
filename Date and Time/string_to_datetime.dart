@@ -12,6 +12,7 @@ void main() {
 
   // my Birthday
   print("Birth Year : ${myTimelineInDateTime.year}");   // Birth Year : 1999
+  print("Birth Month : ${myTimelineInDateTime.month}");  // Birth Month : 2
 
 
 }
