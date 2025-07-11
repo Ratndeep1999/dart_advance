@@ -13,5 +13,8 @@ void main() {
   // I want to return duration so I am using Duration Object
   Duration myDuration = today.difference(myBirthday);
 
+  print("Completed Days Till Now : ${myDuration.inDays}");
+
+
 
 }
