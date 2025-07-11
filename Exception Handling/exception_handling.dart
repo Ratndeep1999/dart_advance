@@ -61,7 +61,4 @@ void main() {
   }
 
 
-  // eg of throwing exception with throw keyword
-
-
 }
