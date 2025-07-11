@@ -14,6 +14,7 @@ void main() {
   Duration myDuration = today.difference(myBirthday);
 
   print("Completed Days Till Now : ${myDuration.inDays}");
+  print("Completed Hours : ${myDuration.inHours}");
 
 
 
